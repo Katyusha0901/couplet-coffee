@@ -41,8 +41,9 @@
     font-size: 14px;
 }
 
-@media (max-width: 768px) { 
-    .mobile-header{
-        display: flex;
-    }
+@media (max-width: 768px) {
+  .mobile-header {
+    display: flex;
+  }
 }
+

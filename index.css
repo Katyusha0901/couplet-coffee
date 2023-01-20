@@ -1,20 +1,21 @@
-* { 
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-  
+
 body {
-    margin: 0;
+  margin: 0;
 }
 
 :root {
-    --md: 768px;
-    --lg: 1012px;
-    --XL: 1280px;
+  --md: 768px;
+  --lg: 1012px;
+  --XL: 1280px;
 }
 
 .running-line {
-    height: 53.99px;
-    width: 100%;
-    background-color: #ff5c1a;
+  width: 100%;
+  height: 53.99px;
+
+  background-color: #ff5c1a;
 }
 
