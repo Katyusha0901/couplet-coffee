@@ -1,0 +1,48 @@
+.mobile-header {
+    display: none;
+    height: 75.99px;
+    width: 100vw;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.mobile-header__menu-image {
+    height: 11.53px;
+    width: 15.99px;
+}
+
+.mobile-header__logo {
+    width: 35.99px;
+    height: 37.99px;
+    cursor: pointer;
+}
+
+.mobile-header__cart {
+    position: relative;
+    cursor: pointer;
+}
+
+.mobile-header__cart-image {
+    width: 20px;
+    height: 22px;
+}
+
+.mobile-header__cart-figure {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+    justify-content: center;
+    color: black;
+    font-family: "Open Sans";
+    font-size: 14px;
+}
+
+@media (max-width: 768px) { 
+    .mobile-header{
+        display: flex;
+    }
+}

@@ -5,16 +5,16 @@
 body {
     margin: 0;
 }
-  
-@media (min-width: 376px) { 
 
+:root {
+    --md: 768px;
+    --lg: 1012px;
+    --XL: 1280px;
 }
 
-@media (min-width: 768px) { 
-    
-}
-
-@media (min-width: 1280px) { 
-    
+.running-line {
+    height: 53.99px;
+    width: 100%;
+    background-color: #ff5c1a;
 }
 
