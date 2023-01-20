@@ -108,7 +108,6 @@
   justify-content: center;
 }
 
-
 .shop-now__button {
   position: relative;
 
@@ -210,6 +209,40 @@
 
   .shop-now {
     height: 490px;
+
+    justify-content: flex-end;
+  }
+
+  .shop-now__button {
+    height: 46px;
+  }
+
+  .shop-now__button-text {
+    font-size: 18px;
+  }
+
+  .shop-now__button-image {
+    display: flex;
+
+    width: 510px;
+    height: 75px;
+  }
+
+  .shop-now__button-orange {
+    height: 38px;
+  }
+
+  .shop-now__button-streak {
+    top: 40px;
+    left: 190px;
+
+    width: 120px;
+
+    align-self: center;
+  }
+
+  .shop-now__button-yellow {
+    width: 42px;
   }
 }
 
