@@ -68,6 +68,11 @@
   color: #fff;
 }
 
+.shop-now__menu-image {
+  padding-right: 45px;
+
+}
+
 .shop-now__container-content {
   display: flex;
 
