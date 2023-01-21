@@ -115,12 +115,13 @@
 
 .shop-now__button {
   position: relative;
-
+  display: flex;
   width: 480px;
   height: 64px;
   margin-bottom: 65px;
   padding: 10px 25px 10px 25px;
-
+  justify-content: center;
+  align-items: center;
   border-radius: 30px;
   background-color: black;
 }
@@ -128,11 +129,9 @@
 .shop-now__button-text {
   font-family: 'Degular';
   font-size: 42px;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
-
   text-align: center;
-
   color: #fff;
 }
 

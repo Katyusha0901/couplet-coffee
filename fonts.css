@@ -112,16 +112,25 @@
 
 @font-face {
     font-family: "Degular";
-    font-weight: 700;
-    font-style: normal;
-
-    src: url("./fonts/DegularBold/degular_bold.otf") format("opentype"); 
-}
-
-@font-face {
-    font-family: "BubbleRainbow";
     font-weight: 400;
     font-style: normal;
 
-    src: url("./fonts/BubbleRainbow/Bubble Rainbow.ttf") format("truetype"); 
+    src: url("./fonts/Degular/DegularRedular_static.ttf") format("truetype"); 
+}
+
+@font-face {
+    font-family: "Degular";
+    font-weight: 500;
+    font-style: normal;
+
+    src: url("./fonts/Degular/DegularMedium_static.ttf") format("truetype"); 
+}
+
+
+@font-face {
+    font-family: "Bubble Rainbow";
+    font-weight: 400;
+    font-style: normal;
+
+    src: url("./fonts/BubbleRainbow/BubbleRainbow_static.ttf") format("truetype"); 
 }
