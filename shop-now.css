@@ -45,7 +45,6 @@
 
 .shop-now__menu {
   display: flex;
-  display: flex;
 
   width: 914px;
   height: 51px;
@@ -55,6 +54,7 @@
   background-color: black;
 
   justify-content: space-between;
+  align-items: center;
 }
 
 .shop-now__menu-text {
@@ -262,6 +262,13 @@
   }
 }
 
+@media screen and (max-width: 1300px) {
+  .shop-now__menu {
+    height: 67px;
+    padding: 10px 15px 10px 45px;
+  }
+}
+
 @media screen and (max-width: 1076px) {
   .shop-now__conteiner-logo {
     width: 10vw;
@@ -278,6 +285,7 @@
   .shop-now__conteiner-figure {
     font-size: .5vw;
   }
+ 
 }
 
 @media screen and (max-width: 768px) {
