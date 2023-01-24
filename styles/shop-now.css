@@ -150,7 +150,7 @@
 .shop-now__menu-window:before {
   position: absolute;
   right: 40px;
-  bottom: 100%;
+  bottom: 100vw;
 
   content: '';
 
@@ -161,7 +161,7 @@
 .shop-now__menu-window:after {
   position: absolute;
   right: 70px;
-  bottom: 100%;
+  bottom: 100vw;
 
   content: '';
 
@@ -212,10 +212,10 @@
 
   position: absolute;
   z-index: 1;
-  top: 50%;
-  left: 50%;
+  top: 50vw;
+  left: 50vw;
 
-  transform: translate(-50%,-50%);
+  transform: translate(-50vw,-50vw);
 
   color: black;
 
