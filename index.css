@@ -19,3 +19,7 @@ body {
   background-color: #ff5c1a;
 }
 
+.bottom-placeholder{
+  width: 100vw;
+  height: 1000px;
+}
