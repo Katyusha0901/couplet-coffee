@@ -6,7 +6,7 @@
   width: 100vw;
   height: 740px;
 
-  background-image: url(images/shop-now.webp);
+  background-image: url(../images/shop-now.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -89,6 +89,36 @@
   padding-right: 55px;
 
   color: #fff;
+}
+
+.shop-now__menu-text2 {
+  font-family: 'Bubble Rainbow';
+  font-size: 23px;
+  font-weight: 400;
+  font-style: normal;
+
+  padding-right: 55px;
+
+  color: #fff;
+}
+
+.shop-now__menu-text2:hover {
+  color: #47a3ff;
+}
+
+.shop-now__menu-text3 {
+  font-family: 'Bubble Rainbow';
+  font-size: 23px;
+  font-weight: 400;
+  font-style: normal;
+
+  padding-right: 55px;
+
+  color: #fff;
+}
+
+.shop-now__menu-text3:hover {
+  color: #e19be9;
 }
 
 .shop-now__menu-window {
