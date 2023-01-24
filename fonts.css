@@ -1,136 +1,136 @@
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 300;
-    font-style: normal;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-style: normal;
 
-    src: url("./fonts/OpenSans/OpenSans-Light.ttf") format("truetype"); 
+  src: url('./fonts/OpenSans/OpenSans-Light.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 300;
-    font-style: italic;
+  font-family: 'Open Sans';
+  font-weight: 300;
+  font-style: italic;
 
-    src: url("./fonts/OpenSans/OpenSans-LightItalic.ttf") format("truetype"); 
+  src: url('./fonts/OpenSans/OpenSans-LightItalic.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: normal;
 
-    src: url("./fonts/OpenSans/OpenSans-Regular.ttf") format("truetype"); 
+  src: url('./fonts/OpenSans/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 400;
-    font-style: italic;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  font-style: italic;
 
-    src: url("./fonts/OpenSans/OpenSans-Italic.ttf") format("truetype"); 
+  src: url('./fonts/OpenSans/OpenSans-Italic.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 500;
-    font-style: normal;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-style: normal;
 
-    src: url("./fonts/OpenSans/OpenSans-Medium.ttf") format("truetype"); 
+  src: url('./fonts/OpenSans/OpenSans-Medium.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 500;
-    font-style: italic;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-style: italic;
 
-    src: url("./fonts/OpenSans/OpenSans-MediumItalic.ttf") format("truetype"); 
+  src: url('./fonts/OpenSans/OpenSans-MediumItalic.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 600;
-    font-style: normal;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: normal;
 
-    src: url("./fonts/OpenSans/OpenSans-SemiBold.ttf") format("truetype"); 
+  src: url('./fonts/OpenSans/OpenSans-SemiBold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 600;
-    font-style: italic;
+  font-family: 'Open Sans';
+  font-weight: 600;
+  font-style: italic;
 
-    src: url("./fonts/OpenSans/OpenSans-SemiBoldItalic.ttf") format("truetype"); 
+  src: url('./fonts/OpenSans/OpenSans-SemiBoldItalic.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 700;
-    font-style: normal;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-style: normal;
 
-    src: url("./fonts/OpenSans/OpenSans-Bold.ttf") format("truetype"); 
+  src: url('./fonts/OpenSans/OpenSans-Bold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 700;
-    font-style: italic;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-style: italic;
 
-    src: url("./fonts/OpenSans/OpenSans-BoldItalic.ttf") format("truetype"); 
+  src: url('./fonts/OpenSans/OpenSans-BoldItalic.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 800;
-    font-style: normal;
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-style: normal;
 
-    src: url("./fonts/OpenSans/OpenSans-ExtraBold.ttf") format("truetype"); 
+  src: url('./fonts/OpenSans/OpenSans-ExtraBold.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Open Sans";
-    font-weight: 800;
-    font-style: italic;
+  font-family: 'Open Sans';
+  font-weight: 800;
+  font-style: italic;
 
-    src: url("./fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf") format("truetype"); 
+  src: url('./fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Arial";
-    font-weight: 700;
-    font-style: italic;
+  font-family: 'Arial';
+  font-weight: 700;
+  font-style: italic;
 
-    src: url("./fonts/Arial/arial_bolditalicmt.ttf") format("truetype"); 
+  src: url('./fonts/Arial/arial_bolditalicmt.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Arial";
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Arial';
+  font-weight: 400;
+  font-style: normal;
 
-    src: url("./fonts/Arial/arialmt.ttf") format("truetype"); 
+  src: url('./fonts/Arial/arialmt.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Degular";
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Degular';
+  font-weight: 400;
+  font-style: normal;
 
-    src: url("./fonts/Degular/DegularRedular_static.ttf") format("truetype"); 
+  src: url('./fonts/Degular/DegularRedular_static.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "Degular";
-    font-weight: 500;
-    font-style: normal;
+  font-family: 'Degular';
+  font-weight: 500;
+  font-style: normal;
 
-    src: url("./fonts/Degular/DegularMedium_static.ttf") format("truetype"); 
+  src: url('./fonts/Degular/DegularMedium_static.ttf') format('truetype');
 }
 
 
 @font-face {
-    font-family: "Bubble Rainbow";
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Bubble Rainbow';
+  font-weight: 400;
+  font-style: normal;
 
-    src: url("./fonts/BubbleRainbow/BubbleRainbow_static.ttf") format("truetype"); 
+  src: url('./fonts/BubbleRainbow/BubbleRainbow_static.ttf') format('truetype');
 }
