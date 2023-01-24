@@ -3,7 +3,7 @@
 
   width: 100vw;
   height: 75.99px;
-  padding: 0 30px;
+  padding: 0 49px 2px 35px;
 
   background-color: black;
 
@@ -12,8 +12,8 @@
 }
 
 .mobile-header__menu-image {
-  width: 15.99px;
-  height: 11.53px;
+  width: 17px;
+  height: 10.9px;
 }
 
 .mobile-header__logo {
