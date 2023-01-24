@@ -289,11 +289,6 @@
 
   .shop-now__menu {
     width: 74vw;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  .shop-now__menu {
     height: 67px;
     padding: 10px 15px 10px 45px;
   }
