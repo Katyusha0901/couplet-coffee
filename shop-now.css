@@ -21,27 +21,37 @@
   display: flex;
 
   width: 100vw;
-  height: 66.01px;
+  height: 60px;
   padding: 30px 5vw 0;
 
   justify-content: space-between;
   align-items: center;
 }
 
-.shop-now__conteiner {
+.shop-now__container {
   display: flex;
 
-  padding: 10px 15px;
+  padding: 8.29px 25px;
 
   border-radius: 30px;
   background-color: black;
 }
 
-.shop-now__conteiner-logo {
-  width: 150px;
+.shop-now__containerleft {
+  display: flex;
+
+  padding: 10px 15px 12.69px 15px;
+
+  border-radius: 30px;
+  background-color: black;
+}
+
+.shop-now__containerleft-logo {
+  width: 175px;
 
   align-self: center;
 }
+
 
 .shop-now__menu {
   display: flex;
@@ -130,7 +140,7 @@
 }
 
 .shop-now__shop-product:hover {
-  color:#ffcb1f;
+  color: #ffcb1f;
 }
 
 .shop-now__menu-text1:hover .shop-now__menu-window {
@@ -144,28 +154,29 @@
 .shop-now__container-content {
   display: flex;
 
-  padding: 0 19px;
-
   justify-content: center;
   align-items: center;
 }
 
-.shop-now__conteiner-image {
-  height: .7vw;
-  padding-right: 10px;
+.shop-now__container-image {
+  height: 16px;
+  padding-right: 15.83px;
+  padding-left: 0;
 }
 
-.shop-now__conteiner-cart {
+.shop-now__container-cart {
   position: relative;
+  top: 2px;
 
   cursor: pointer;
 }
 
-.shop-now__conteiner-cartimage {
-  height: 20px;
+.shop-now__container-cartimage {
+  width: 19px;
+  height: 21px;
 }
 
-.shop-now__conteiner-figure {
+.shop-now__container-figure {
   font-family: 'Open Sans';
   font-size: 14px;
 
@@ -188,14 +199,14 @@
 
   width: 480px;
   height: 64px;
-  margin-bottom: 65px;
+  margin-bottom: 58px;
   padding: 10px 25px 10px 25px;
 
   border-radius: 30px;
   background-color: black;
 
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .shop-now__button-text {
@@ -270,22 +281,21 @@
 }
 
 @media screen and (max-width: 1076px) {
-  .shop-now__conteiner-logo {
+  .shop-now__container-logo {
     width: 10vw;
   }
   .shop-now__container-content {
     width: 9vw;
   }
-  .shop-now__conteiner-cart {
+  .shop-now__container-cart {
     width: 1vw;
   }
-  .shop-now__conteiner-cartimage {
+  .shop-now__container-cartimage {
     height: 1vw;
   }
-  .shop-now__conteiner-figure {
+  .shop-now__container-figure {
     font-size: .5vw;
   }
- 
 }
 
 @media screen and (max-width: 768px) {
