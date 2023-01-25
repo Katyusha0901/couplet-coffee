@@ -1,0 +1,103 @@
+.slogan {
+  position: relative;
+
+  display: flex;
+
+  width: 100%;
+  height: 147.99px;
+
+  background-color: #47a3ff;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.slogan__text {
+  font-family: 'Degular';
+  font-size: 72px;
+  font-weight: 500;
+  font-style: normal;
+
+  position: relative;
+
+  display: flex;
+
+  color: black;
+
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.slogan__text_bubble {
+  font-family: 'Bubble Rainbow';
+  font-weight: 400;
+  font-style: normal;
+}
+
+.slogan__bean {
+  position: absolute;
+
+  height: 70px;
+}
+
+.slogan__bean_left {
+  bottom: 50%;
+  left: -15.1%;
+}
+
+.slogan__bean_right {
+  top: 43.3%;
+  right: -5.5%;
+}
+
+@media screen and (max-width: 1300px) {
+  .slogan__bean_right {
+    padding-right: 70px;
+  }
+
+  .slogan__bean_left {
+    padding-left: 150px;
+  }
+}
+
+
+@media screen and (max-width: 1076px) {
+  .slogan__bean_right {
+    top: 70%;
+  }
+
+  .slogan__bean_left {
+    bottom: 80%;
+  }
+
+  .slogan {
+    height: 100px;
+  }
+
+  .slogan__text {
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slogan {
+    height: 60px;
+  }
+
+  .slogan__text {
+    font-size: 24px;
+
+    gap: 2px;
+  }
+
+  .slogan__bean_right {
+    top: 30%;
+    left: 128%;
+  }
+
+  .slogan__bean_left {
+    bottom: 50%;
+    left: -88%;
+  }
+}
