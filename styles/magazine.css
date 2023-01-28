@@ -1,0 +1,62 @@
+.magazine {
+  display: flex;
+
+  width: 1440px;
+  margin-top: 30px;
+  padding: 42px 45px 47px 47px;
+
+  border-radius: 50px;
+  background-color: #45de8f;
+
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+  gap: 63px;
+}
+
+.magazine__item {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 997px) {
+  .magazine {
+    width: 100%;
+
+    gap: 1%;
+  }
+
+  .magazine__item {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 997px) {
+  .magazine {
+    width: 99%;
+    height: 221px;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .magazine__item {
+    width: 150px;
+    height: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .magazine {
+    height: 221px;
+
+    gap: 1%;
+  }
+  .magazine__item {
+    width: 28%;
+    height: 70px;
+  }
+}
