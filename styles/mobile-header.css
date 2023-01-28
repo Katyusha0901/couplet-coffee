@@ -50,6 +50,9 @@
 
 @media (max-width: 768px) {
   .mobile-header {
+    position: fixed;
+    z-index: 3;
+
     display: flex;
   }
 }
