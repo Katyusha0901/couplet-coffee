@@ -6,13 +6,16 @@
 
   border-radius: 50px;
   background-color: #c7f0ff;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .starter-kit__content {
   display: flex;
   flex-direction: column;
 
-  width: 1007px;
+  height: 70%;
 
   justify-content: center;
   align-items: center;
@@ -25,8 +28,8 @@
   font-style: normal;
   line-height: 90px;
 
-  margin-bottom: 33px;
-  padding-top: 18px;
+  margin-bottom: 63px;
+  padding-top: 8px;
 
   text-align: center;
 }
@@ -40,7 +43,7 @@
 
   display: flex;
 
-  padding-bottom: 5px;
+  padding-bottom: 50px;
 
   text-align: center;
 }
@@ -120,33 +123,36 @@
   .starter-kit {
     width: 95%;
     height: 300px;
-    padding-left: 0;
   }
 
   .starter-kit__content {
-    width: 600px;
+    width: 60%;
   }
 
   .starter-kit__title {
     font-size: 300%;
+
+    margin-bottom: 40px;
   }
 
   .starter-kit__paragraph {
     font-size: 28px;
     line-height: 27px;
 
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
 
   .starter-kit__button {
     width: 65%;
     height: 10%;
+    margin-bottom: 35px;
     padding: 30px 10px;
   }
 
   .starter-kit__button-text {
     font-size: 85%;
   }
+
   .starter-kit__image {
     width: 30%;
     height: 30vw;
@@ -212,15 +218,15 @@
   }
 
   .starter-kit__title {
-    font-size: 150%;
+    font-size: 220%;
 
-    height: 60px;
+    height: 20px;
     padding-bottom: 10px;
   }
 
   .starter-kit__paragraph {
-    font-size: 100%;
-    line-height: 27px;
+    font-size: 110%;
+    line-height: 20px;
 
     padding-top: 1px;
     padding-bottom: 20px;
