@@ -1,37 +1,30 @@
-.magazine {
+.magazines {
   display: flex;
 
   width: 1440px;
   margin-top: 30px;
-  padding: 42px 45px 47px 47px;
+  padding: 42px 0 47px 0;
 
   border-radius: 50px;
   background-color: #45de8f;
 
   justify-self: center;
   align-items: center;
-  justify-content: center;
-  gap: 63px;
+  justify-content: space-between;
 }
 
-.magazine__item {
+.magazines__item {
   cursor: pointer;
 }
 
 @media screen and (max-width: 1440px) and (min-width: 997px) {
-  .magazine {
+  .magazines {
     width: 100%;
-
-    gap: 1%;
-  }
-
-  .magazine__item {
-    width: 15%;
   }
 }
 
 @media screen and (max-width: 997px) {
-  .magazine {
+  .magazines {
     width: 99%;
     height: 221px;
     margin-right: 80px;
@@ -43,19 +36,19 @@
     flex-wrap: wrap;
   }
 
-  .magazine__item {
+  .magazines__item {
     width: 150px;
     height: 70px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .magazine {
+  .magazines {
     height: 221px;
 
     gap: 1%;
   }
-  .magazine__item {
+  .magazines__item {
     width: 28%;
     height: 70px;
   }
