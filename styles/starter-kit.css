@@ -31,7 +31,7 @@
   text-align: center;
 }
 
-.starter-kit__paragraf {
+.starter-kit__paragraph {
   font-family: 'Degular';
   font-size: 48px;
   font-weight: 500;
@@ -40,7 +40,7 @@
 
   display: flex;
 
-  padding-bottom: 44.3px;
+  padding-bottom: 5px;
 
   text-align: center;
 }
@@ -50,7 +50,7 @@
 
   width: 50%;
   height: 80px;
-  margin: 5px 260px 65px 260px;
+  margin: 5px 260px 0 260px;
 
   cursor: pointer;
 
@@ -120,19 +120,19 @@
   .starter-kit {
     width: 95%;
     height: 300px;
-    padding-left: 40px;
+    padding-left: 0;
   }
 
   .starter-kit__content {
-    width: 500px;
+    width: 600px;
   }
 
   .starter-kit__title {
     font-size: 300%;
   }
 
-  .starter-kit__paragraf {
-    font-size: 180%;
+  .starter-kit__paragraph {
+    font-size: 28px;
     line-height: 27px;
 
     padding-bottom: 20px;
@@ -150,7 +150,7 @@
   .starter-kit__image {
     width: 30%;
     height: 30vw;
-    margin-right: 20px;
+    margin-right: 10px;
   }
 }
 
@@ -170,7 +170,7 @@
     font-size: 300%;
   }
 
-  .starter-kit__paragraf {
+  .starter-kit__paragraph {
     font-size: 180%;
     line-height: 27px;
 
@@ -218,7 +218,7 @@
     padding-bottom: 10px;
   }
 
-  .starter-kit__paragraf {
+  .starter-kit__paragraph {
     font-size: 100%;
     line-height: 27px;
 
