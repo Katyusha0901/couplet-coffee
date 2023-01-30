@@ -204,8 +204,8 @@
   }
 
   .starter-kit__content {
-    width: 400px;
-    padding-left: 100px;
+    width: 100%;
+    padding-left: -50px;
 
     justify-content: center;
     align-items: center;
@@ -228,13 +228,13 @@
 
   .starter-kit__button {
     width: 70%;
-    height: 10px;
+    height: 8px;
     margin-bottom: 5px;
     padding: 30px 10px;
   }
 
   .starter-kit__button-text {
-    font-size: 90%;
+    font-size: 70%;
   }
   .starter-kit__image {
     width: 100%;
