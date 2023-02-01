@@ -15,8 +15,7 @@
   display: flex;
   flex-direction: column;
 
-  height: 70%;
-
+  flex-grow: 2;
   justify-content: center;
   align-items: center;
 }
@@ -85,7 +84,7 @@
 
 @media screen and (max-width: 1476px) and (min-width: 997px) {
   .starter-kit {
-    width: 98%;
+    width: 97%;
   }
   .starter-kit__content {
     padding-top: 0;
@@ -93,7 +92,7 @@
   .starter-kit__title {
     line-height: 75px;
 
-    margin-top: 13px;
+    margin-top: 3px;
     padding-top: 10px;
   }
 
@@ -105,7 +104,7 @@
   .starter-kit__button {
     width: 45%;
     height: 60px;
-    margin-top: 40px;
+    margin-top: 1px;
     margin-bottom: 30px;
   }
 
@@ -132,7 +131,8 @@
   .starter-kit__title {
     font-size: 300%;
 
-    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 
   .starter-kit__paragraph {
@@ -143,9 +143,9 @@
   }
 
   .starter-kit__button {
-    width: 65%;
-    height: 10%;
-    margin-bottom: 35px;
+    width: 55%;
+    height: 59px;
+    margin-bottom: 50px;
     padding: 30px 10px;
   }
 
