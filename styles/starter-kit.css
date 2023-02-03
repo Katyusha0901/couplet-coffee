@@ -15,7 +15,11 @@
   display: flex;
   flex-direction: column;
 
-  flex-grow: 2;
+  max-width: 70%;
+
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 450px;
   justify-content: center;
   align-items: center;
 }
@@ -27,8 +31,7 @@
   font-style: normal;
   line-height: 90px;
 
-  margin-bottom: 63px;
-  padding-top: 8px;
+  margin-bottom: 33px;
 
   text-align: center;
 }
@@ -50,9 +53,9 @@
 .starter-kit__button {
   display: flex;
 
-  width: 50%;
+  width: 563px;
   height: 80px;
-  margin: 5px 260px 0 260px;
+  margin: 0 260px 0 260px;
 
   cursor: pointer;
 
@@ -65,7 +68,7 @@
 
 .starter-kit__button-text {
   font-family: 'Bubble Rainbow';
-  font-size: 180%;
+  font-size: 1.5vw;
   font-weight: 400;
   font-style: normal;
 
@@ -80,6 +83,7 @@
 .starter-kit__image {
   width: 432px;
   height: 462.38px;
+  margin-bottom: 3px;
 }
 
 @media screen and (max-width: 1476px) and (min-width: 997px) {
@@ -118,6 +122,7 @@
   }
 }
 
+
 @media screen and (max-width: 997px) and (min-width: 768px) {
   .starter-kit {
     width: 95%;
@@ -131,8 +136,8 @@
   .starter-kit__title {
     font-size: 300%;
 
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 17px;
+    margin-bottom: 30px;
   }
 
   .starter-kit__paragraph {
@@ -143,14 +148,14 @@
   }
 
   .starter-kit__button {
-    width: 55%;
+    width: 49%;
     height: 59px;
     margin-bottom: 50px;
-    padding: 30px 10px;
+    padding: 30px 5px;
   }
 
   .starter-kit__button-text {
-    font-size: 85%;
+    font-size: 1.3vw;
   }
 
   .starter-kit__image {
@@ -222,6 +227,53 @@
 
     height: 20px;
     padding-bottom: 10px;
+  }
+
+  .starter-kit__paragraph {
+    font-size: 110%;
+    line-height: 20px;
+
+    padding-top: 1px;
+    padding-bottom: 20px;
+  }
+
+  .starter-kit__button {
+    width: 70%;
+    height: 8px;
+    margin-bottom: 5px;
+    padding: 30px 10px;
+  }
+
+  .starter-kit__button-text {
+    font-size: 70%;
+  }
+  .starter-kit__image {
+    width: 100%;
+    height: 40%;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .starter-kit {
+    flex-direction: column-reverse;
+
+    width: 93%;
+  }
+
+  .starter-kit__content {
+    padding-left: -50px;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .starter-kit__title {
+    font-size: 32px;
+
+    padding-bottom: 40px;
+
+    flex-wrap: wrap-reverse;
   }
 
   .starter-kit__paragraph {
