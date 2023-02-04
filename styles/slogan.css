@@ -81,6 +81,56 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+  .slogan {
+    
+    height: 146px;
+  
+  }
+  
+  .slogan__text {
+    font-family: 'Degular';
+    font-size: 72px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 27px;
+  
+    position: relative;
+  
+    display: flex;
+  
+    color: black;
+  
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slogan__text_bubble {
+    font-family: 'Bubble Rainbow';
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .slogan__bean {
+    position: absolute;
+  
+    height: 70px;
+  }
+  
+  .slogan__bean_left {
+    bottom: 50%;
+    left: -15.1%;
+  }
+  
+  .slogan__bean_right {
+    top: 43.3%;
+    right: -5.5%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .slogan {
     height: 60px;
