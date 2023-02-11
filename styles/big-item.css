@@ -146,13 +146,14 @@
   border-left: 2px solid black;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .big-item {
     position: relative;
 
     display: flex;
     flex-direction: column;
 
+    height: 100%;
     padding: 0 0 0;
 
     cursor: pointer;
@@ -160,6 +161,7 @@
     border-radius: 23px;
     background-color: white;
 
+    align-items: stretch;
     flex-basis: 340px;
     flex-shrink: 1;
   }
@@ -221,7 +223,7 @@
   }
 
   .big-item__image {
-    width: 90%;
+    width: 100%;
     padding: 52px 20px;
 
     border-radius: 10px;
@@ -232,7 +234,6 @@
     display: flex;
     flex-direction: column;
 
-    height: 50px;
     margin: 10px 0 0 0;
 
     cursor: pointer;
@@ -245,11 +246,10 @@
     display: flex;
     flex-direction: column;
 
-    height: 100px;
+    height: 60px;
     margin-bottom: 0;
 
-    flex-basis: 310px;
-    flex-shrink: 1;
+    justify-content: flex-start;
   }
 
   .big-item__title {
@@ -265,6 +265,7 @@
   }
   .big-item__subtitle2 {
     font-size: 12px;
+    line-height: 15px;
 
     display: flex;
   }
@@ -273,7 +274,7 @@
     flex-direction: row;
 
     width: 100%;
-    margin-top: 65px;
+    margin-top: 12px;
     padding: 8px 6px;
 
     border-radius: 30px;
@@ -302,18 +303,184 @@
   }
 }
 
-/* @media screen and (max-width: 659px) {
-  .big-item__button {
+@media screen and (max-width: 626px) {
+  .big-item__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
-    width: 100%;
-    padding: 8px 6px;
-    margin-top: 47px;
-    border-radius: 30px;
-    background-color: #ffcb1f;
+    height: 84px;
+    margin-bottom: 0;
 
-    justify-content: center;
-    gap: 8px;
+    justify-content: flex-start;
   }
-} */
+}
+
+@media screen and (max-width: 512px) {
+  .big-item__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 102px;
+    margin-bottom: 0;
+
+    justify-content: flex-start;
+  }
+}
+
+
+@media screen and (max-width: 508px) {
+  .big-item__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 102px;
+    margin-bottom: 0;
+
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 364px) {
+  .big-item__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 117px;
+    margin-bottom: 0;
+
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 347px) {
+  .big-item__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 142px;
+    margin-bottom: 0;
+
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .big-item__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 142px;
+    margin-bottom: 0;
+
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 304px) {
+  .big-item__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 141px;
+    margin-bottom: 0;
+
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 303px) {
+  .big-item__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 160px;
+    margin-bottom: 0;
+
+    justify-content: flex-start;
+  }
+}
+
+
+@media screen and (max-width: 287px) {
+  .big-item__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 185px;
+    margin-bottom: 0;
+
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 276px) {
+  .big-item__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 209px;
+    margin-bottom: 0;
+
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  .big-item__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 226px;
+    margin-bottom: 0;
+
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 222px) {
+  .big-item__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+
+    display: flex;
+    flex-direction: column;
+
+    height: 242px;
+    margin-bottom: 0;
+
+    justify-content: flex-start;
+  }
+}

@@ -34,7 +34,7 @@
   display: flex;
   flex-direction: column;
 
-  margin-bottom: 27px;
+  /* margin-bottom: 27px; */
 }
 
 .small-item__title {
@@ -206,7 +206,7 @@
   border-left: 2px solid black;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .small-item__text {
     font-family: 'Open Sans';
     font-style: normal;
@@ -214,7 +214,7 @@
     display: flex;
     flex-direction: column;
 
-    margin-bottom: 27px;
+/* margin-bottom: 27px; */
 
     flex-basis: 330px;
   }
@@ -229,6 +229,7 @@
 
   .small-item__subtitle2 {
     font-size: 12px;
+    line-height: 15px;
 
     display: flex;
   }
@@ -265,7 +266,7 @@
     flex-direction: row;
 
     width: 100%;
-    margin-top: -15px;
+    margin-top: 12px;
     padding: 8px 6px;
 
     border-radius: 30px;

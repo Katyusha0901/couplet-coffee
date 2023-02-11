@@ -129,7 +129,7 @@
   transition: 5s;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .catalog {
     position: relative;
 
@@ -140,6 +140,19 @@
     max-width: 1440px;
     padding: 33px 20px 40px;
   }
+
+  .catalog__content {
+    position: relative;
+  
+    display: grid;
+    grid-template-columns: 48.5% 48.5%;
+    padding-top: 8px;
+  
+    justify-content: center;
+    /* gap: 17px; */
+    align-items: center;
+  }
+
 
   .catalog__title {
     font-family: 'Bubble Rainbow';
@@ -160,9 +173,7 @@
     display: none;
   }
 
-  .catalog__content {
-    padding-top: 8px;
-  }
+  
   .catalog__button {
     position: relative;
 
@@ -230,6 +241,84 @@
     position: absolute;
     top: 22px;
     left: 94.3%;
+
+    display: flex;
+
+    height: 43px;
+
+    transition: 5s;
+  }
+}
+
+
+@media screen and (max-width: 454px) {
+  .catalog__button {
+    position: relative;
+
+    display: flex;
+
+    width: 90%;
+    max-width: 480px;
+    height: 50px;
+    margin: 40px 0 0;
+
+    border-radius: 50px;
+    background-color: #45de8f;
+
+    justify-content: center;
+    align-self: center;
+  }
+
+  .catalog__button-text {
+    font-family: 'Degular';
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+
+    display: flex;
+
+    text-align: center;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .catalog__button-image {
+    position: absolute;
+    top: -10px;
+
+    width: 90%;
+    max-width: 480px;
+  }
+
+  .catalog__button-orange {
+    position: absolute;
+    right: 90%;
+    bottom: 23px;
+
+    display: flex;
+
+    height: 38px;
+
+    transition: 5s;
+  }
+
+  .catalog__button-streak {
+    position: absolute;
+    top: 33px;
+    left: 30%;
+
+    display: flex;
+
+    width: 105px;
+
+    transition: 5s;
+  }
+
+  .catalog__button-yellow {
+    position: absolute;
+    top: 22px;
+    left: 90%;
 
     display: flex;
 
