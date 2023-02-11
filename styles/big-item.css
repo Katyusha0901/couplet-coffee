@@ -23,6 +23,7 @@
 
 .big-item__strokes {
   position: absolute;
+  z-index: 2;
   top: 200px;
   left: 35px;
 
@@ -161,6 +162,7 @@
     border-radius: 23px;
     background-color: white;
 
+    order: -1;
     align-items: stretch;
     flex-basis: 340px;
     flex-shrink: 1;
