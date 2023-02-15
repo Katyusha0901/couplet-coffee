@@ -121,6 +121,8 @@
   width: 80%;
   padding: 8px 6px;
 
+  cursor: pointer;
+
   border-radius: 30px;
   background-color: #ffcb1f;
 
