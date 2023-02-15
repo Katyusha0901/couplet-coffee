@@ -4,11 +4,10 @@
   display: flex;
 
   width: 100%;
-
   padding: 0 20px;
-  /* max-width: 100%;
+
+/* max-width: 100%;
   width: 1440px;
- 
   margin: 0 198px; */
   padding: 110px 20px;
 
@@ -22,7 +21,8 @@
   position: absolute;
   top: 0;
   right: 68%;
-  /* margin-right: 80px;ы */
+
+/* margin-right: 80px;ы */
 
   width: 302px;
   height: 350px;
@@ -30,15 +30,18 @@
 
 .notcoffekarens__content {
   position: relative;
+
   display: flex;
   flex-direction: column;
-  margin: 0px 300px;
+
   width: 800px;
+  margin: 0 300px;
 }
 
 .notcoffekarens__text {
   display: flex;
   flex-direction: column;
+
   width: 800px;
 
   justify-content: center;
@@ -65,20 +68,24 @@
   font-size: 42px;
   font-weight: 400;
   font-style: normal;
+
   margin-top: -6px;
 }
 
 .notcoffekarens__smile {
-  display: flex;
-  align-self: flex-end;
   position: absolute;
   top: 68%;
-  /* left: 10%; */
-  right: 1%; 
-  margin-left: 115px;
+  left: 70%;
+
+/* right: 1%; */
+
+  display: flex;
 
   width: 148px;
   height: 148px;
+  margin-left: 115px;
+
+  align-self: flex-end;
 }
 
 @media screen and (max-width: 1462px) {
@@ -86,81 +93,84 @@
     position: relative;
 
     display: flex;
-  
+
     width: 100%;
-  
     padding: 0 20px;
-    /* max-width: 100%;
+
+/* max-width: 100%;
     width: 1440px;
-   
     margin: 0 198px; */
     padding: 110px 20px;
-  
+
     background-color: #c7f0ff;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__girl {
     position: absolute;
     top: 0;
-    right: 0%;
+    right: 0;
     left: 2.3%;
-    /* margin-right: 80px; */
-  
+
+/* margin-right: 80px; */
+
     width: 20%;
     min-width: 160px;
     height: auto;
   }
-  
+
   .notcoffekarens__content {
     position: relative;
+
     display: flex;
     flex-direction: column;
-    margin: 0px 300px;
+
     width: 800px;
+    margin: 0 300px;
   }
-  
+
   .notcoffekarens__text {
     display: flex;
     flex-direction: column;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__title {
     font-family: 'Open Sans';
     font-size: 62px;
     font-weight: 400;
     font-style: normal;
-  
+
     margin-bottom: 20px;
   }
-  
+
   .notcoffekarens__stroke {
     width: 247px;
     height: 61px;
     margin-bottom: 10px;
   }
-  
+
   .notcoffekarens__subtitle {
     font-family: 'Open Sans';
     font-size: 42px;
     font-weight: 400;
     font-style: normal;
+
     margin-top: -6px;
   }
-  
+
   .notcoffekarens__smile {
     position: absolute;
     top: 68%;
     left: 83%;
-    margin-left: 0px;
-  
+
     width: 148px;
     height: 148px;
+    margin-left: 0;
   }
 }
 
@@ -169,81 +179,84 @@
     position: relative;
 
     display: flex;
-  
+
     width: 100%;
-  
     padding: 0 20px;
-    /* max-width: 100%;
+
+/* max-width: 100%;
     width: 1440px;
-   
     margin: 0 198px; */
     padding: 110px 20px;
-  
+
     background-color: #c7f0ff;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__girl {
     position: absolute;
     top: 0;
-    right: 0%;
+    right: 0;
     left: 2.3%;
-    /* margin-right: 80px; */
-  
+
+/* margin-right: 80px; */
+
     width: 20%;
     min-width: 160px;
     height: auto;
   }
-  
+
   .notcoffekarens__content {
     position: relative;
+
     display: flex;
     flex-direction: column;
-    margin: 0px 300px;
+
     width: 800px;
+    margin: 0 300px;
   }
-  
+
   .notcoffekarens__text {
     display: flex;
     flex-direction: column;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__title {
     font-family: 'Open Sans';
     font-size: 62px;
     font-weight: 400;
     font-style: normal;
-  
+
     margin-bottom: 20px;
   }
-  
+
   .notcoffekarens__stroke {
     width: 247px;
     height: 61px;
     margin-bottom: 10px;
   }
-  
+
   .notcoffekarens__subtitle {
     font-family: 'Open Sans';
     font-size: 42px;
     font-weight: 400;
     font-style: normal;
+
     margin-top: -6px;
   }
-  
+
   .notcoffekarens__smile {
     position: absolute;
     top: 68%;
     left: 83%;
-    margin-left: 0px;
-  
+
     width: 148px;
     height: 148px;
+    margin-left: 0;
   }
 }
 
@@ -252,81 +265,84 @@
     position: relative;
 
     display: flex;
-  
+
     width: 100%;
-  
     padding: 0 20px;
-    /* max-width: 100%;
+
+/* max-width: 100%;
     width: 1440px;
-   
     margin: 0 198px; */
     padding: 110px 20px;
-  
+
     background-color: #c7f0ff;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__girl {
     position: absolute;
     top: 0;
-    right: 0%;
+    right: 0;
     left: 2.3%;
-    /* margin-right: 80px; */
-  
+
+/* margin-right: 80px; */
+
     width: 20%;
     min-width: 160px;
     height: auto;
   }
-  
+
   .notcoffekarens__content {
     position: relative;
+
     display: flex;
     flex-direction: column;
-    margin: 0px 300px;
+
     width: 800px;
+    margin: 0 300px;
   }
-  
+
   .notcoffekarens__text {
     display: flex;
     flex-direction: column;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__title {
     font-family: 'Open Sans';
     font-size: 62px;
     font-weight: 400;
     font-style: normal;
-  
+
     margin-bottom: 20px;
   }
-  
+
   .notcoffekarens__stroke {
     width: 247px;
     height: 61px;
     margin-bottom: 10px;
   }
-  
+
   .notcoffekarens__subtitle {
     font-family: 'Open Sans';
     font-size: 42px;
     font-weight: 400;
     font-style: normal;
+
     margin-top: -6px;
   }
-  
+
   .notcoffekarens__smile {
     position: absolute;
     top: 68%;
     left: 81.5%;
-    margin-left: 0px;
-  
+
     width: 148px;
     height: 148px;
+    margin-left: 0;
   }
 }
 
@@ -335,82 +351,83 @@
     position: relative;
 
     display: flex;
-  
+
     width: 100%;
-  
     padding: 0 20px;
-    /* max-width: 100%;
+
+/* max-width: 100%;
     width: 1440px;
-   
     margin: 0 198px; */
     padding: 225px 20px 170px;
-  
+
     background-color: #c7f0ff;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__girl {
     position: absolute;
     top: 0;
-    right: 0%;
+    right: 0;
     left: 2.3%;
-    /* margin-right: 80px; */
-  
+
+/* margin-right: 80px; */
+
     width: 20%;
     min-width: 160px;
     height: auto;
   }
-  
+
   .notcoffekarens__content {
     /* position: relative; */
     display: flex;
     flex-direction: column;
-    margin: 0px 300px;
+
     width: 800px;
+    margin: 0 300px;
   }
-  
+
   .notcoffekarens__text {
     display: flex;
     flex-direction: column;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__title {
     font-family: 'Open Sans';
     font-size: 62px;
     font-weight: 400;
     font-style: normal;
-  
+
     margin-bottom: 20px;
   }
-  
+
   .notcoffekarens__stroke {
     width: 247px;
     height: 61px;
     margin-bottom: 10px;
   }
-  
+
   .notcoffekarens__subtitle {
     font-family: 'Open Sans';
     font-size: 42px;
     font-weight: 400;
     font-style: normal;
+
     margin-top: -6px;
   }
-  
+
   .notcoffekarens__smile {
     position: absolute;
     top: 75%;
     left: 81.5%;
-    
-    margin-left: 0px;
-  
+
     width: 148px;
     height: 148px;
+    margin-left: 0;
   }
 }
 
@@ -419,82 +436,83 @@
     position: relative;
 
     display: flex;
-  
+
     width: 100%;
-  
     padding: 0 20px;
-    /* max-width: 100%;
+
+/* max-width: 100%;
     width: 1440px;
-   
     margin: 0 198px; */
     padding: 225px 20px 170px;
-  
+
     background-color: #c7f0ff;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__girl {
     position: absolute;
     top: 0;
-    right: 0%;
+    right: 0;
     left: 2.3%;
-    /* margin-right: 80px; */
-  
+
+/* margin-right: 80px; */
+
     width: 20%;
     min-width: 160px;
     height: auto;
   }
-  
+
   .notcoffekarens__content {
     /* position: relative; */
     display: flex;
     flex-direction: column;
-    margin: 0px 300px;
+
     width: 800px;
+    margin: 0 300px;
   }
-  
+
   .notcoffekarens__text {
     display: flex;
     flex-direction: column;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__title {
     font-family: 'Open Sans';
     font-size: 62px;
     font-weight: 400;
     font-style: normal;
-  
+
     margin-bottom: 20px;
   }
-  
+
   .notcoffekarens__stroke {
     width: 247px;
     height: 61px;
     margin-bottom: 10px;
   }
-  
+
   .notcoffekarens__subtitle {
     font-family: 'Open Sans';
     font-size: 42px;
     font-weight: 400;
     font-style: normal;
+
     margin-top: -6px;
   }
-  
+
   .notcoffekarens__smile {
     position: absolute;
     top: 75%;
     left: 80%;
-    
-    margin-left: 0px;
-  
+
     width: 148px;
     height: 148px;
+    margin-left: 0;
   }
 }
 
@@ -503,82 +521,83 @@
     position: relative;
 
     display: flex;
-  
+
     width: 100%;
-  
     padding: 0 20px;
-    /* max-width: 100%;
+
+/* max-width: 100%;
     width: 1440px;
-   
     margin: 0 198px; */
     padding: 225px 20px 170px;
-  
+
     background-color: #c7f0ff;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__girl {
     position: absolute;
     top: 0;
-    right: 0%;
+    right: 0;
     left: 2.3%;
-    /* margin-right: 80px; */
-  
+
+/* margin-right: 80px; */
+
     width: 20%;
     min-width: 160px;
     height: auto;
   }
-  
+
   .notcoffekarens__content {
     /* position: relative; */
     display: flex;
     flex-direction: column;
-    margin: 0px 300px;
+
     width: 800px;
+    margin: 0 300px;
   }
-  
+
   .notcoffekarens__text {
     display: flex;
     flex-direction: column;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__title {
     font-family: 'Open Sans';
     font-size: 62px;
     font-weight: 400;
     font-style: normal;
-  
+
     margin-bottom: 20px;
   }
-  
+
   .notcoffekarens__stroke {
     width: 247px;
     height: 61px;
     margin-bottom: 10px;
   }
-  
+
   .notcoffekarens__subtitle {
     font-family: 'Open Sans';
     font-size: 42px;
     font-weight: 400;
     font-style: normal;
+
     margin-top: -6px;
   }
-  
+
   .notcoffekarens__smile {
     position: absolute;
     top: 75%;
     left: 76%;
-    
-    margin-left: 0px;
-  
+
     width: 148px;
     height: 148px;
+    margin-left: 0;
   }
 }
 
@@ -587,172 +606,180 @@
     position: relative;
 
     display: flex;
-  
+
     width: 100%;
-  
     padding: 0 20px;
-    /* max-width: 100%;
+
+/* max-width: 100%;
     width: 1440px;
-   
     margin: 0 198px; */
     padding: 225px 20px 170px;
-  
+
     background-color: #c7f0ff;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__girl {
     position: absolute;
     top: 0;
-    right: 0%;
+    right: 0;
     left: 2.3%;
-    /* margin-right: 80px; */
-  
+
+/* margin-right: 80px; */
+
     width: 20%;
     min-width: 160px;
     height: auto;
   }
-  
+
   .notcoffekarens__content {
     /* position: relative; */
     display: flex;
     flex-direction: column;
-    margin: 0px ;
+
     width: 100%;
+    margin: 0 ;
   }
-  
+
   .notcoffekarens__text {
     display: flex;
     flex-direction: column;
+
     width: 100%;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__title {
     font-family: 'Open Sans';
     font-size: 62px;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
-  
+
     margin-bottom: 20px;
+
+    text-align: center;
   }
-  
+
   .notcoffekarens__stroke {
     width: 247px;
     height: 61px;
     margin-bottom: 10px;
   }
-  
+
   .notcoffekarens__subtitle {
     font-family: 'Open Sans';
     font-size: 42px;
     font-weight: 400;
     font-style: normal;
+
     margin-top: -6px;
+
     text-align: center;
   }
-  
+
   .notcoffekarens__smile {
     position: absolute;
     top: 75%;
     left: 76%;
-    
-    margin-left: 0px;
-  
+
     width: 148px;
     height: 148px;
+    margin-left: 0;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .notcoffekarens {
     position: relative;
 
     display: flex;
-  
+
     width: 100%;
-  
     padding: 0 20px;
-    /* max-width: 100%;
+
+/* max-width: 100%;
     width: 1440px;
-   
     margin: 0 198px; */
     padding: 225px 20px 170px;
-  
+
     background-color: #c7f0ff;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__girl {
     position: absolute;
     top: 0;
-    right: 0%;
-    left: 2.3%;
-    /* margin-right: 80px; */
-  
+    right: 0;
+    left: -30px;
+
+/* margin-right: 80px; */
+
     width: 20%;
     min-width: 160px;
     height: auto;
   }
-  
+
   .notcoffekarens__content {
     /* position: relative; */
     display: flex;
     flex-direction: column;
-    margin: 0px ;
+
     width: 100%;
+    margin: 0 ;
   }
-  
+
   .notcoffekarens__text {
     display: flex;
     flex-direction: column;
+
     width: 100%;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__title {
     font-family: 'Open Sans';
     font-size: 62px;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
-  
+
     margin-bottom: 20px;
+
+    text-align: center;
   }
-  
+
   .notcoffekarens__stroke {
     width: 247px;
     height: 61px;
     margin-bottom: 10px;
   }
-  
+
   .notcoffekarens__subtitle {
     font-family: 'Open Sans';
     font-size: 42px;
     font-weight: 400;
     font-style: normal;
+
     margin-top: -6px;
+
     text-align: center;
   }
-  
+
   .notcoffekarens__smile {
     position: absolute;
     top: 87%;
     left: 87%;
-    
-    margin-left: 0px;
-  
+
     width: 75px;
     height: 75px;
+    margin-left: 0;
   }
 }
 
@@ -761,85 +788,89 @@
     position: relative;
 
     display: flex;
-  
+
     width: 100%;
-  
     padding: 0 20px;
-    /* max-width: 100%;
+
+/* max-width: 100%;
     width: 1440px;
-   
     margin: 0 198px; */
     padding: 225px 20px 170px;
-  
+
     background-color: #c7f0ff;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__girl {
     position: absolute;
     top: 0;
-    right: 0%;
-    left: 2.3%;
-    /* margin-right: 80px; */
-  
+    right: 0;
+    left: -30px;
+
+/* margin-right: 80px; */
+
     width: 20%;
     min-width: 160px;
     height: auto;
   }
-  
+
   .notcoffekarens__content {
     /* position: relative; */
     display: flex;
     flex-direction: column;
-    margin: 0px ;
+
     width: 100%;
+    margin: 0 ;
   }
-  
+
   .notcoffekarens__text {
     display: flex;
     flex-direction: column;
+
     width: 100%;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__title {
     font-family: 'Open Sans';
     font-size: 62px;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
-  
+
     margin-bottom: 20px;
+
+    text-align: center;
   }
-  
+
   .notcoffekarens__stroke {
     width: 247px;
     height: 61px;
     margin-bottom: 10px;
   }
-  
+
   .notcoffekarens__subtitle {
     font-family: 'Open Sans';
     font-size: 42px;
     font-weight: 400;
     font-style: normal;
+
     margin-top: -6px;
+
     text-align: center;
   }
-  
+
   .notcoffekarens__smile {
     position: absolute;
     top: 87%;
     left: 85%;
-    
-    margin-left: 0px;
-  
+
     width: 75px;
     height: 75px;
+    margin-left: 0;
   }
 }
 
@@ -848,83 +879,549 @@
     position: relative;
 
     display: flex;
-  
+
     width: 100%;
-  
     padding: 0 20px;
-    /* max-width: 100%;
+
+/* max-width: 100%;
     width: 1440px;
-   
     margin: 0 198px; */
     padding: 225px 20px 170px;
-  
+
     background-color: #c7f0ff;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__girl {
     position: absolute;
     top: 0;
-    right: 0%;
-    left: 2.3%;
-    /* margin-right: 80px; */
-  
+    right: 0;
+    left: -30px;
+
+/* margin-right: 80px; */
+
     width: 20%;
     min-width: 160px;
     height: auto;
   }
-  
+
   .notcoffekarens__content {
     /* position: relative; */
     display: flex;
     flex-direction: column;
-    margin: 0px ;
+
     width: 100%;
+    margin: 0 ;
   }
-  
+
   .notcoffekarens__text {
     display: flex;
     flex-direction: column;
+
     width: 100%;
-  
+
     justify-content: center;
     align-items: center;
   }
-  
+
   .notcoffekarens__title {
     font-family: 'Open Sans';
     font-size: 36px;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
-  
+
     margin-bottom: 20px;
+
+    text-align: center;
   }
-  
+
   .notcoffekarens__stroke {
     width: 99px;
     height: 23px;
     margin-bottom: 10px;
   }
-  
+
   .notcoffekarens__subtitle {
     font-family: 'Open Sans';
     font-size: 18px;
     font-weight: 400;
     font-style: normal;
+
     margin-top: -6px;
+
     text-align: center;
   }
-  
+
   .notcoffekarens__smile {
     position: absolute;
     top: 83%;
     left: 78%;
-    
-    /* margin-right: 10%; */
-  
+
+/* margin-right: 10%; */
+
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .notcoffekarens {
+    position: relative;
+
+    display: flex;
+
+    width: 100%;
+    padding: 0 20px;
+
+/* max-width: 100%;
+    width: 1440px;
+    margin: 0 198px; */
+    padding: 225px 20px 170px;
+
+    background-color: #c7f0ff;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notcoffekarens__girl {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: -30px;
+
+/* margin-right: 80px; */
+
+    width: 20%;
+    min-width: 160px;
+    height: auto;
+  }
+
+  .notcoffekarens__content {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin: 0 ;
+  }
+
+  .notcoffekarens__text {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notcoffekarens__title {
+    font-family: 'Open Sans';
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+  }
+
+  .notcoffekarens__stroke {
+    width: 99px;
+    height: 23px;
+    margin-bottom: 10px;
+  }
+
+  .notcoffekarens__subtitle {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-top: 0;
+
+    text-align: center;
+  }
+
+  .notcoffekarens__smile {
+    position: absolute;
+    top: 83%;
+    left: 76%;
+
+/* margin-right: 10%; */
+
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .notcoffekarens {
+    position: relative;
+
+    display: flex;
+
+    width: 100%;
+    padding: 0 20px;
+
+/* max-width: 100%;
+    width: 1440px;
+    margin: 0 198px; */
+    padding: 225px 20px 170px;
+
+    background-color: #c7f0ff;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notcoffekarens__girl {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: -30px;
+
+/* margin-right: 80px; */
+
+    width: 20%;
+    min-width: 160px;
+    height: auto;
+  }
+
+  .notcoffekarens__content {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin: 0 ;
+  }
+
+  .notcoffekarens__text {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notcoffekarens__title {
+    font-family: 'Open Sans';
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+  }
+
+  .notcoffekarens__stroke {
+    width: 99px;
+    height: 23px;
+    margin-bottom: 10px;
+  }
+
+  .notcoffekarens__subtitle {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-top: 0;
+
+    text-align: center;
+  }
+
+  .notcoffekarens__smile {
+    position: absolute;
+    top: 83%;
+    left: 73%;
+
+/* margin-right: 10%; */
+
+    width: 75px;
+    height: 75px;
+  }
+}
+
+
+@media screen and (max-width: 314px) {
+  .notcoffekarens {
+    position: relative;
+
+    display: flex;
+
+    width: 100%;
+    padding: 0 20px;
+
+/* max-width: 100%;
+    width: 1440px;
+    margin: 0 198px; */
+    padding: 225px 20px 170px;
+
+    background-color: #c7f0ff;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notcoffekarens__girl {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: -30px;
+
+/* margin-right: 80px; */
+
+    width: 20%;
+    min-width: 160px;
+    height: auto;
+  }
+
+  .notcoffekarens__content {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin: 0 ;
+  }
+
+  .notcoffekarens__text {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notcoffekarens__title {
+    font-family: 'Open Sans';
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+  }
+
+  .notcoffekarens__stroke {
+    width: 99px;
+    height: 23px;
+    margin-bottom: 10px;
+  }
+
+  .notcoffekarens__subtitle {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-top: 0;
+
+    text-align: center;
+  }
+
+  .notcoffekarens__smile {
+    position: absolute;
+    top: 83%;
+    left: 70%;
+
+/* margin-right: 10%; */
+
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width: 275px) {
+  .notcoffekarens {
+    position: relative;
+
+    display: flex;
+
+    width: 100%;
+    padding: 0 20px;
+
+/* max-width: 100%;
+    width: 1440px;
+    margin: 0 198px; */
+    padding: 225px 20px 170px;
+
+    background-color: #c7f0ff;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notcoffekarens__girl {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: -30px;
+
+/* margin-right: 80px; */
+
+    width: 20%;
+    min-width: 160px;
+    height: auto;
+  }
+
+  .notcoffekarens__content {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin: 0 ;
+  }
+
+  .notcoffekarens__text {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notcoffekarens__title {
+    font-family: 'Open Sans';
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+  }
+
+  .notcoffekarens__stroke {
+    width: 99px;
+    height: 23px;
+    margin-bottom: 10px;
+  }
+
+  .notcoffekarens__subtitle {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-top: 0;
+
+    text-align: center;
+  }
+
+  .notcoffekarens__smile {
+    position: absolute;
+    top: 83%;
+    left: 60%;
+
+/* margin-right: 10%; */
+
+    width: 75px;
+    height: 75px;
+  }
+}
+
+@media screen and (max-width: 230px) {
+  .notcoffekarens {
+    position: relative;
+
+    display: flex;
+
+    width: 100%;
+    padding: 0 20px;
+
+/* max-width: 100%;
+    width: 1440px;
+    margin: 0 198px; */
+    padding: 225px 20px 170px;
+
+    background-color: #c7f0ff;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notcoffekarens__girl {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: -30px;
+
+/* margin-right: 80px; */
+
+    width: 20%;
+    min-width: 160px;
+    height: auto;
+  }
+
+  .notcoffekarens__content {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin: 0 ;
+  }
+
+  .notcoffekarens__text {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notcoffekarens__title {
+    font-family: 'Open Sans';
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-bottom: 20px;
+
+    text-align: center;
+  }
+
+  .notcoffekarens__stroke {
+    width: 99px;
+    height: 23px;
+    margin-bottom: 10px;
+  }
+
+  .notcoffekarens__subtitle {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-top: 0;
+
+    text-align: center;
+  }
+
+  .notcoffekarens__smile {
+    position: absolute;
+    top: 83%;
+    left: 35%;
+
+/* margin-right: 10%; */
+
     width: 75px;
     height: 75px;
   }
