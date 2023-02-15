@@ -270,8 +270,8 @@
   }
 
   .starter-kit__image {
-    width: 738px;
-    height: 790px;
+    width: 100%;
+    height: auto;
     margin-top: 2px;
     margin-bottom: 0;
   }
@@ -366,8 +366,8 @@
   .starter-kit__image {
     display: flex;
 
-    width: 435px;
-    height: 465px;
+    width: 100%;
+    height: auto;
   }
 }
 
