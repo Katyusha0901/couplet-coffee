@@ -3,6 +3,8 @@
 
   display: flex;
 
+  width: 100%;
+
   justify-content: center;
   align-items: center;
 }
@@ -89,8 +91,8 @@
 .limiteddrops__bowl {
   position: absolute;
   z-index: -1;
-  top: 590px;
-  right: -60px;
+  top: 680px;
+  right: -40px;
 
   width: 408px;
 }
@@ -259,7 +261,7 @@
   .limiteddrops__bowl {
     position: absolute;
     z-index: -1;
-    top: 89%;
+    top: 83.6%;
     right: -60px;
 
     width: 204px;
@@ -352,7 +354,7 @@
   .limiteddrops__bowl {
     position: absolute;
     z-index: -1;
-    top: 50%;
+    top: 63%;
     right: -60px;
 
     width: 204px;
