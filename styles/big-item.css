@@ -6,6 +6,8 @@
 
   padding: 147px 0 63px;
 
+  cursor: pointer;
+
   border-radius: 23px;
   background-color: #e19be9;
 
@@ -19,6 +21,16 @@
 
 .big-item:hover .big-item__strokes {
   display: flex;
+}
+
+.big-item__bean {
+  position: absolute;
+  z-index: 2;
+  top: 140px;
+  left: -35px;
+
+  width: 70px;
+  height: 70px;
 }
 
 .big-item__strokes {
@@ -80,7 +92,7 @@
   align-self: center;
 }
 
-.big-item__descriotion {
+.big-item__description {
   display: flex;
   flex-direction: column;
 
@@ -151,23 +163,18 @@
 
 @media screen and (max-width: 768px) {
   .big-item {
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-
     height: 100%;
     padding: 0 0 0;
 
-    cursor: pointer;
-
-    border-radius: 23px;
     background-color: white;
 
     order: -1;
     align-items: stretch;
     flex-basis: 340px;
-    flex-shrink: 1;
+  }
+
+  .big-item__bean {
+    display: none;
   }
 
   .big-item:hover .big-item__image {
@@ -179,52 +186,19 @@
   }
 
   .big-item__strokes {
-    position: absolute;
     top: 260px;
-    left: 35px;
-
-    display: none;
 
     height: 400px;
-
-    cursor: pointer;
   }
 
   .big-item__star {
-    position: absolute;
-    top: 30px;
-    right: 18px;
-
     display: none;
-
-    cursor: pointer;
-    transform: rotate(10deg);
-
-    justify-content: center;
-    ;
   }
 
   .big-item__star-image {
-    z-index: 2;
-
     width: 10px;
   }
 
-  .big-item__star-price {
-    font-family: 'Open Sans';
-    font-size: 42px;
-    font-weight: 600;
-    font-style: normal;
-
-    position: absolute;
-    z-index: 3;
-    top: 50px;
-    left: 55px;
-
-    transform: rotate(-5deg);
-
-    align-self: center;
-  }
 
   .big-item__image {
     width: 100%;
@@ -235,21 +209,10 @@
   }
 
   .big-item__descriotion {
-    display: flex;
-    flex-direction: column;
-
     margin: 10px 0 0 0;
-
-    cursor: pointer;
   }
 
   .big-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
     height: 60px;
     margin-bottom: 0;
 
@@ -258,15 +221,14 @@
 
   .big-item__title {
     font-size: 18px;
-    font-weight: 400;
-
-    margin-bottom: 4px ;
   }
+
   .big-item__subtitle {
     font-size: 12px;
 
     display: none;
   }
+
   .big-item__subtitle2 {
     font-size: 12px;
     line-height: 15px;
@@ -274,217 +236,91 @@
     display: flex;
   }
   .big-item__button {
-    display: flex;
-    flex-direction: row;
-
     width: 100%;
     margin-top: 12px;
-    padding: 8px 6px;
-
-    border-radius: 30px;
-    background-color: #ffcb1f;
-
-    justify-content: center;
-    gap: 8px;
   }
 
   .big-item__button-price {
-    font-family: 'Bubble Rainbow';
-    font-size: 13px;
     font-weight: 600;
-    font-style: normal;
   }
 
   .big-item__button-add {
     font-family: 'Degular';
     font-size: 14px;
     font-weight: 600;
-    font-style: normal;
-
-    padding-left: 4px;
-
-    border-left: 2px solid black;
   }
 }
 
 @media screen and (max-width: 626px) {
   .big-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
     height: 84px;
-    margin-bottom: 0;
-
-    justify-content: flex-start;
   }
 }
 
 @media screen and (max-width: 512px) {
   .big-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
     height: 102px;
-    margin-bottom: 0;
-
-    justify-content: flex-start;
   }
 }
 
 
 @media screen and (max-width: 508px) {
   .big-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
     height: 102px;
-    margin-bottom: 0;
-
-    justify-content: flex-start;
   }
 }
 
 @media screen and (max-width: 364px) {
   .big-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
     height: 117px;
-    margin-bottom: 0;
-
-    justify-content: flex-start;
   }
 }
 
 @media screen and (max-width: 347px) {
   .big-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
     height: 142px;
-    margin-bottom: 0;
-
-    justify-content: flex-start;
   }
 }
 
 @media screen and (max-width: 345px) {
   .big-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
     height: 142px;
-    margin-bottom: 0;
-
-    justify-content: flex-start;
   }
 }
 
 @media screen and (max-width: 304px) {
   .big-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
     height: 141px;
-    margin-bottom: 0;
-
-    justify-content: flex-start;
   }
 }
 
 @media screen and (max-width: 303px) {
   .big-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
     height: 160px;
-    margin-bottom: 0;
-
-    justify-content: flex-start;
   }
 }
 
 
 @media screen and (max-width: 287px) {
   .big-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
     height: 185px;
-    margin-bottom: 0;
-
-    justify-content: flex-start;
   }
 }
 
 @media screen and (max-width: 276px) {
   .big-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
     height: 209px;
-    margin-bottom: 0;
-
-    justify-content: flex-start;
   }
 }
 
 @media screen and (max-width: 260px) {
   .big-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
     height: 226px;
-    margin-bottom: 0;
-
-    justify-content: flex-start;
   }
 }
 
 @media screen and (max-width: 222px) {
   .big-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
     height: 242px;
-    margin-bottom: 0;
-
-    justify-content: flex-start;
   }
 }

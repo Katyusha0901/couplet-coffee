@@ -1,0 +1,303 @@
+.limited-drops {
+  position: relative;
+
+  display: flex;
+  overflow: hidden;
+
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+.limited-drops__decagram {
+  position: absolute;
+  z-index: -1;
+  top: -30px;
+  left: 45%;
+
+  width: 364px;
+}
+
+.limited-drops__content {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 1440px;
+  padding: 96px 20px 106px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.limited-drops__information {
+  position: relative;
+
+  display: flex;
+
+  align-self: flex-end;
+}
+
+.limited-drops__text {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 50%;
+  max-width: 450px;
+  margin-top: 110px;
+  margin-right: 143px;
+}
+
+.limited-drops__text-title {
+  font-family: 'Degular';
+  font-size: 62px;
+  font-weight: 500;
+  font-style: normal;
+
+  margin-bottom: 42px;
+}
+
+.limited-drops__text-subtitle {
+  font-family: 'Degular';
+  font-size: 36px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 47px;
+}
+
+.limited-drops__image {
+  display: flex;
+
+  width: 473px;
+}
+
+.limited-drops__line {
+  position: absolute;
+  z-index: -1;
+  top: 655px;
+  left: 0;
+
+  display: flex;
+
+  width: 516px;
+}
+
+.limited-drops__bowl {
+  position: absolute;
+  z-index: -1;
+  top: 680px;
+  right: -1px;
+
+  width: 408px;
+}
+
+@media screen and (max-width: 1200px) {
+  .limited-drops__text {
+    margin-top: 0;
+    margin-right: 10%;
+  }
+
+  .limited-drops__line {
+    top: 875px;
+  }
+}
+
+@media screen and (max-width: 977px) {
+  .limited-drops__decagram {
+    top: -24px;
+    left: -33px;
+
+    width: 109px;
+  }
+
+  .limited-drops__text {
+    margin-top: 0;
+    margin-right: 90px;
+  }
+
+  .limited-drops__text-title {
+    font-size: 48px;
+  }
+
+  .limited-drops__text-subtitle {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .limited-drops__image {
+    width: 50%;
+  }
+
+  .limited-drops__line {
+    top: 875px;
+
+    display: none;
+  }
+
+  .limited-drops__bowl {
+    top: 58%;
+    right: -60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .limited-drops__decagram {
+    top: -24px;
+    left: -33px;
+
+    width: 109px;
+  }
+
+  .limited-drops__information {
+    flex-direction: column-reverse;
+
+    width: 100%;
+
+    justify-content: center;
+  }
+
+  .limited-drops__text {
+    width: 85%;
+    margin-top: 26px;
+    margin-right: 73px;
+  }
+
+  .limited-drops__text-title {
+    font-size: 48px;
+  }
+
+  .limited-drops__text-subtitle {
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .limited-drops__image {
+    width: 100%;
+  }
+
+  .limited-drops__line {
+    top: 875px;
+
+    display: none;
+  }
+
+  .limited-drops__bowl {
+    top: 83.6%;
+    right: -60px;
+
+    width: 204px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .limited-drops__decagram {
+    top: -24px;
+    left: -33px;
+
+    width: 109px;
+  }
+
+  .limited-drops__information {
+    flex-direction: column-reverse;
+
+    width: 100%;
+
+    justify-content: center;
+    align-self: center;
+  }
+
+  .limited-drops__text {
+    width: 280px;
+    margin-top: 26px;
+    margin-right: 38px;
+  }
+
+  .limited-drops__text-title {
+    font-size: 36px;
+
+    margin-bottom: 12px;
+  }
+
+  .limited-drops__text-subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .limited-drops__image {
+    width: 100%;
+  }
+
+  .limited-drops__line {
+    top: 875px;
+
+    display: none;
+  }
+
+  .limited-drops__bowl {
+    top: 63%;
+    right: -60px;
+
+    width: 204px;
+  }
+}
+
+@media screen and (max-width: 383px) {
+  .limited-drops__decagram {
+    top: -43px;
+    left: -30px;
+
+    width: 45%;
+  }
+
+  .limited-drops__information {
+    flex-direction: column-reverse;
+
+    width: 100%;
+
+    justify-content: center;
+    align-self: center;
+  }
+
+  .limited-drops__text {
+    width: 280px;
+    margin-top: 20px;
+    margin-right: 90px;
+  }
+
+  .limited-drops__text-title {
+    font-family: 'Degular';
+    font-size: 36px;
+    font-weight: 500;
+    font-style: normal;
+
+    margin-bottom: 12px;
+  }
+
+  .limited-drops__text-subtitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .limited-drops__image {
+    width: 100%;
+  }
+
+  .limited-drops__line {
+    top: 875px;
+
+    display: none;
+  }
+
+  .limited-drops__bowl {
+    top: 50%;
+    right: -60px;
+
+    width: 204px;
+  }
+}

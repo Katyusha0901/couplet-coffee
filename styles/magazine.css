@@ -24,23 +24,11 @@
   .magazines {
     display: grid;
 
-    width: 100%;
-    margin-top: 30px;
     padding: 42px 10px 47px 10px;
-
-    border-radius: 50px;
-    background-color: #45de8f;
 
     grid-template-columns: 170px 170px 170px  170px 170px 170px;
     grid-template-rows: 62px;
     gap: 0;
-    justify-self: center;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .magazines__item {
-    cursor: pointer;
   }
 }
 
@@ -48,19 +36,11 @@
   .magazines {
     display: flex;
 
-    width: 100%;
     height: 221px;
-    margin-top: 30px;
     padding: 10px 87px 10px 47px;
-
-    border-radius: 50px;
-    background-color: #45de8f;
 
     flex-wrap: wrap;
     gap: 35px 135px;
-    justify-self: center;
-    align-items: center;
-    justify-content: center;
   }
 }
 
@@ -69,7 +49,6 @@
   .magazines {
     display: grid;
 
-    width: 100%;
     height: 221px;
     margin-right: 80px;
     margin-left: 80px;
@@ -93,27 +72,18 @@
   .magazines {
     display: grid;
 
-    width: 100%;
     height: 221px;
     margin-top: 30px;
     padding: 54px 87px 55px 87px;
 
-    border-radius: 50px;
-    background-color: #45de8f;
-
     grid-template-columns: 170px 170px 170px;
     grid-template-rows: 40px 40px ;
     gap: 60px;
-    justify-self: center;
-    align-items: center;
-    justify-content: center;
   }
 
   .magazines__item {
     width: 170px;
     height: 50px;
-
-    cursor: pointer;
   }
 }
 
@@ -134,45 +104,26 @@
   .magazines {
     display: grid;
 
-    width: 100%;
     margin-top: 30px;
     padding: 42px 10px 42px 10px;
-
-    border-radius: 50px;
-    background-color: #45de8f;
 
     grid-template-columns: 25% 25% 25%;
     grid-template-rows: 52px 52px ;
     gap: 10px;
-    justify-self: center;
-    align-items: center;
-    justify-content: center;
   }
 
   .magazines__item {
     width: 100%;
-
-    cursor: pointer;
   }
 }
 
 
 @media screen and (max-width: 425px) {
   .magazines {
-    display: flex;
-
-    width: 100%;
     height: 120px;
-    margin-top: 30px;
     padding: 10px 15px;
 
-    border-radius: 50px;
-    background-color: #45de8f;
-
     gap: 10px 20px;
-    justify-self: center;
-    align-items: center;
-    justify-content: center;
   }
 
   .magazines__item {
@@ -183,20 +134,10 @@
 
 @media screen and (max-width: 375px) {
   .magazines {
-    display: flex;
-
-    width: 100%;
     height: 120px;
-    margin-top: 30px;
     padding: 10px 35px;
 
-    border-radius: 50px;
-    background-color: #45de8f;
-
     gap: 0 20px;
-    justify-self: center;
-    align-items: center;
-    justify-content: center;
   }
 
   .magazines__item {
@@ -207,20 +148,10 @@
 
 @media screen and (max-width: 320px) {
   .magazines {
-    display: flex;
-
-    width: 100%;
     height: 120px;
-    margin-top: 30px;
     padding: 13px 15px 6px 15px;
 
-    border-radius: 50px;
-    background-color: #45de8f;
-
     gap: 8px 0;
-    justify-self: center;
-    align-items: center;
-    justify-content: center;
   }
 
   .magazines__item {

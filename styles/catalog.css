@@ -9,6 +9,22 @@
   padding: 33px 30px 40px;
 }
 
+.catalog__mobile-content {
+  display: none;
+}
+
+.catalog__desktop-content {
+  position: relative;
+
+  display: flex;
+
+  padding-top: 30px;
+
+  justify-content: center;
+  gap: 17px;
+  align-items: flex-start;
+}
+
 .catalog__title {
   font-family: 'Bubble Rainbow';
   font-size: 72px;
@@ -32,10 +48,10 @@
   cursor: pointer;
 }
 
-.catalog__content {
+.catalog__mobile-content {
   position: relative;
 
-  display: flex;
+  display: none;
 
   padding-top: 30px;
 
@@ -142,53 +158,36 @@
 
 @media screen and (max-width: 768px) {
   .catalog {
-    position: relative;
-
-    display: flex;
-    flex-direction: column;
-
-    width: 100%;
-    max-width: 1440px;
     padding: 33px 20px 40px;
   }
 
-  .catalog__content {
-    position: relative;
-
+  .catalog__mobile-content {
     display: grid;
 
     padding-top: 8px;
 
     grid-template-columns: 48.5% 48.5%;
     justify-content: center;
-
-/* gap: 17px; */
     align-items: center;
   }
-  .catalog__content2 {
-    position: relative;
 
+  .catalog__desktop-content {
+    display: none;
+  }
+
+
+  .catalog__content2 {
     display: grid;
 
     padding-top: 8px;
 
     grid-auto-flow: row-reverse;
     grid-template-columns: 48.5% 48.5%;
-    justify-content: center;
-
-/* gap: 17px; */
     align-items: center;
   }
 
   .catalog__title {
-    font-family: 'Bubble Rainbow';
     font-size: 36px;
-    font-weight: 400;
-    font-style: normal;
-
-    margin-bottom: 18px;
-
-    border-bottom: 3px solid black ;
   }
 
   .catalog__wave {
@@ -201,109 +200,69 @@
 
 
   .catalog__button {
-    position: relative;
-
-    display: flex;
-
     width: 90%;
     max-width: 480px;
     height: 50px;
     margin: 40px 0 0;
-
-    border-radius: 50px;
-    background-color: #45de8f;
-
-    justify-content: center;
-    align-self: center;
   }
 
   .catalog__button-text {
-    font-family: 'Degular';
     font-size: 18px;
     font-weight: 600;
-    font-style: normal;
 
     display: flex;
-
-    text-align: center;
 
     justify-content: center;
     align-items: center;
   }
 
   .catalog__button-image {
-    position: absolute;
-    top: -10px;
-
     width: 90%;
     max-width: 480px;
   }
 
   .catalog__button-orange {
-    position: absolute;
     right: 94.3%;
     bottom: 23px;
 
     display: flex;
 
     height: 38px;
-
-    transition: 5s;
   }
 
   .catalog__button-streak {
-    position: absolute;
     top: 33px;
     left: 39%;
 
     display: flex;
 
     width: 105px;
-
-    transition: 5s;
   }
 
   .catalog__button-yellow {
-    position: absolute;
     top: 22px;
     left: 94.3%;
 
     display: flex;
 
     height: 43px;
-
-    transition: 5s;
   }
 }
 
 
 @media screen and (max-width: 454px) {
   .catalog__button {
-    position: relative;
-
-    display: flex;
-
     width: 90%;
     max-width: 480px;
     height: 50px;
     margin: 40px 0 0;
-
-    border-radius: 50px;
-    background-color: #45de8f;
-
-    justify-content: center;
-    align-self: center;
   }
 
   .catalog__button-text {
-    font-family: 'Degular';
     font-size: 18px;
     font-weight: 600;
-    font-style: normal;
 
     display: flex;
-
-    text-align: center;
 
     justify-content: center;
     align-items: center;

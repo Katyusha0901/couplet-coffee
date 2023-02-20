@@ -2,10 +2,13 @@
   display: flex;
   flex-direction: column;
 
+  height: 100%;
+
   cursor: pointer;
 
   border-radius: 24px;
 
+  justify-content: space-between;
   flex-basis: 345px;
   flex-shrink: 1;
 }
@@ -33,8 +36,6 @@
 
   display: flex;
   flex-direction: column;
-
-  /* margin-bottom: 10px; */
 }
 
 .small-item__title {
@@ -207,48 +208,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .small-item__text {
-    font-family: 'Open Sans';
-    font-style: normal;
-
-    display: flex;
-    flex-direction: column;
-
-/* margin-bottom: 27px; */
-
-    flex-basis: 330px;
-  }
-
-
-  .small-item__title {
-    font-size: 18px;
-    font-weight: 400;
-
-    margin-bottom: 4px ;
-  }
-
-  .small-item__subtitle2 {
-    font-size: 12px;
-    line-height: 15px;
-
-    display: flex;
-  }
-  .small-item__subtitle {
-    display: none;
-  }
-  .small-item__price {
-    display: none;
-  }
-
-  .small-item__description {
-    display: flex;
-    flex-direction: row-reverse;
-
-    margin-top: 10px;
-
-    align-items: stretch;
-  }
-
   .small-item {
     display: flex;
     flex-direction: column;
@@ -259,6 +218,35 @@
 
     flex-basis: 310px;
     flex-shrink: 1.08;
+  }
+
+  .small-item__picture {
+    width: 100%;
+    padding: 56px 25px;
+
+    border-radius: 10px;
+    background-color: #c7f0ff;
+  }
+
+  .small-item__description {
+    margin-top: 10px;
+  }
+
+  .small-item__text {
+    flex-basis: 330px;
+  }
+
+  .small-item__title {
+    font-size: 18px;
+  }
+
+  .small-item__subtitle {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .small-item__price {
+    display: none;
   }
 
   .small-item__button {
@@ -276,18 +264,6 @@
     gap: 8px;
   }
 
-  .small-item__subtitle {
-    font-size: 12px;
-  }
-
-  .small-item__picture {
-    width: 100%;
-    padding: 56px 25px;
-
-    border-radius: 10px;
-    background-color: #c7f0ff;
-  }
-
   .small-item__button-price {
     font-family: 'Bubble Rainbow';
     font-size: 13px;
@@ -300,8 +276,5 @@
     font-size: 14px;
     font-weight: 600;
     font-style: normal;
-  }
-  .small-item2 {
-    display: none;
   }
 }
