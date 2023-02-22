@@ -51,6 +51,7 @@ input::placeholder {
   height: 46px;
   padding: 1px 6px;
 
+  cursor: pointer;
   text-align: center;
 
   color: white;

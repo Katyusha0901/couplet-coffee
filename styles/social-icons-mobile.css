@@ -20,6 +20,8 @@
   right: 40px;
 
   width: 107px;
+
+  cursor: pointer;
 }
 
 .social-icons-mobile__instagram-image {
@@ -29,6 +31,8 @@
 
   width: 115px;
   height: 81px;
+
+  cursor: pointer;
 }
 
 .social-icons-mobile__instagram-letter {
@@ -37,6 +41,8 @@
   left: 27px;
 
   width: 29px;
+
+  cursor: pointer;
 }
 
 .social-icons-mobile__tik-tok-image {
@@ -47,6 +53,7 @@
   width: 120px;
   height: 112px;
 
+  cursor: pointer;
   transform: rotate(-17deg);
 }
 
@@ -57,6 +64,8 @@
   left: 20px;
 
   width: 38px;
+
+  cursor: pointer;
 }
 
 .social-icons-mobile__twitter-image {
@@ -65,6 +74,8 @@
   bottom: 14px;
 
   width: 105px;
+
+  cursor: pointer;
 }
 
 .social-icons-mobile__twitter-letter {
@@ -74,6 +85,8 @@
   left: 45px;
 
   width: 46px;
+
+  cursor: pointer;
 }
 
 .social-icons-mobile__tik-tok-letter {
@@ -84,6 +97,7 @@
 
   width: 44px;
 
+  cursor: pointer;
   transform: rotate(14deg);
 }
 
