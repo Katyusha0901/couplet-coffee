@@ -1,0 +1,60 @@
+.great-coffee {
+  display: flex;
+
+  padding-top: 30px;
+  padding-top: 30px;
+
+  background-color: #e19be9;
+
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.great-coffee__text {
+  padding-bottom: 25px;
+
+  text-align: justify;
+
+  color: white;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.great-coffee__text-degular {
+  font-family: 'Degular';
+  font-size: 48px;
+  font-weight: 500;
+  font-style: normal;
+
+  display: inline;
+
+  margin-right: 10px;
+}
+
+.great-coffee__text-bubble {
+  font-family: 'Bubble Rainbow';
+  font-size: 48px;
+  font-weight: 400;
+  font-style: normal;
+
+  display: inline;
+}
+
+@media screen and (max-width: 708px) {
+  .great-coffee {
+    padding-top: 0;
+  }
+
+  /* .great-coffee__text {
+    width: 100%;
+}
+
+.great-coffee__text-degular {
+    width: 100%;
+}
+
+.great-coffee__text-bubble {
+    width: 100%;
+} */
+}
