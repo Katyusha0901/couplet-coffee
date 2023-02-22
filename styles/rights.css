@@ -1,0 +1,36 @@
+.rights {
+  display: flex;
+  flex-direction: column;
+}
+
+.rights__title {
+  font-family: 'Open Sans';
+  font-size: 9px;
+  font-weight: 400;
+  font-style: normal;
+
+  margin-bottom: 8px;
+
+  color: #666;
+}
+
+.rights__subtitle {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.rights__item {
+  font-family: 'Open Sans';
+  font-size: 9px;
+  font-weight: 400;
+  font-style: normal;
+
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .rights {
+    margin-top: -40px;
+  }
+}

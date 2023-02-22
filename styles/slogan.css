@@ -49,12 +49,12 @@
 
 .slogan__bean_left {
   bottom: 50%;
-  left: 4%;
+  left: 14.8%;
 }
 
 .slogan__bean_right {
   top: 43.3%;
-  right: 10%;
+  right: 20%;
 }
 
 @media screen and (max-width: 1200px) {

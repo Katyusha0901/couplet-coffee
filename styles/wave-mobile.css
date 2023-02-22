@@ -1,0 +1,28 @@
+.wave-mobile {
+  position: relative;
+  left: -80px;
+
+  display: none;
+
+  height: 200px;
+}
+
+
+.wave-mobile-image {
+  position: absolute;
+  bottom: 50px;
+
+  width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+  .wave-mobile {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .wave-mobile-image {
+    width: 114vw;
+  }
+}

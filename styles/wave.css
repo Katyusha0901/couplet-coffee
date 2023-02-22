@@ -1,0 +1,41 @@
+.wave {
+  position: absolute;
+  right: 197px;
+  bottom: -75px;
+
+  width: 560px;
+
+  transform: rotate(7deg);
+}
+
+@media screen and (max-width: 1662px) {
+  .wave {
+    right: 70px;
+  }
+}
+
+@media screen and (max-width: 1490px) {
+  .wave {
+    right: -20px;
+
+    width: 39%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .wave {
+    bottom: -65px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .wave {
+    bottom: -50px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wave {
+    display: none;
+  }
+}

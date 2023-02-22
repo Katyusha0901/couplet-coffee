@@ -1,0 +1,148 @@
+.social-icons-mobile {
+  position: relative;
+  top: 70%;
+  left: 0;
+
+  display: none;
+
+  grid-template-columns: 130px 130px;
+  grid-template-rows: 130px 130px;
+  grid-column-gap: 30px;
+}
+
+.social-icons-mobile__site {
+  position: relative;
+}
+
+.social-icons-mobile__facebook-image {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+
+  width: 107px;
+}
+
+.social-icons-mobile__instagram-image {
+  position: absolute;
+  right: 38px;
+  bottom: 50px;
+
+  width: 115px;
+  height: 81px;
+}
+
+.social-icons-mobile__instagram-letter {
+  position: absolute;
+}
+
+.social-icons-mobile__tik-tok-image {
+  position: absolute;
+  right: 80px;
+  bottom: -10px;
+
+  width: 120px;
+  height: 112px;
+
+  transform: rotate(-17deg);
+}
+
+.social-icons-mobile__facebook-letter {
+  position: absolute;
+  z-index: 2;
+  top: 55px;
+  left: 20px;
+
+  width: 38px;
+}
+
+.social-icons-mobile__twitter-image {
+  position: absolute;
+  right: 10px;
+  bottom: 14px;
+
+  width: 105px;
+}
+
+.social-icons-mobile__twitter-letter {
+  position: absolute;
+  z-index: 2;
+  top: 40px;
+  left: 45px;
+
+  width: 46px;
+}
+
+.social-icons-mobile__tik-tok-letter {
+  position: absolute;
+  z-index: 2;
+  top: 17px;
+  right: 100px;
+
+  width: 44px;
+
+  transform: rotate(14deg);
+}
+
+@media screen and (max-width: 768px) {
+  .social-icons-mobile {
+    display: grid;
+  }
+
+  .social-icons-mobile__facebook-image {
+    top: -10px;
+    right: 60px;
+
+    width: 70px;
+  }
+
+  .social-icons-mobile__facebook-letter {
+    top: 11px;
+    left: 25px;
+
+    width: 26px;
+  }
+
+  .social-icons-mobile__twitter-image {
+    right: 130px;
+    bottom: 64px;
+
+    width: 72px;
+  }
+
+  .social-icons-mobile__twitter-letter {
+    top: 15px;
+    left: -50px;
+
+    width: 31px;
+  }
+
+  .social-icons-mobile__instagram-image {
+    right: 40px;
+    bottom: 90px;
+
+    width: 85px;
+  }
+
+  .social-icons-mobile__instagram-letter {
+    position: absolute;
+    bottom: 100px;
+  }
+
+  .social-icons-mobile__tik-tok-image {
+    right: 110px;
+    bottom: 80px;
+
+    width: 80px;
+
+    transform: rotate(-27deg);
+  }
+
+  .social-icons-mobile__tik-tok-letter {
+    top: -23px;
+    right: 135px;
+
+    width: 29px;
+
+    transform: rotate(0deg);
+  }
+}

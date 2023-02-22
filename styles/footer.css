@@ -1,0 +1,40 @@
+.footer {
+  position: relative;
+
+  display: flex;
+  overflow: hidden;
+
+  width: 100%;
+  padding: 0 15px;
+
+  background-color: #45de8f;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 11.6%;
+  padding: 44px 0 88px 147px;
+
+  align-items: flex-start;
+}
+
+
+
+@media screen and (max-width: 1662px) {
+  .footer__content {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__content {
+    padding: 36px;
+  }
+}

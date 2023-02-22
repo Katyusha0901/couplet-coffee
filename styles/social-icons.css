@@ -1,0 +1,220 @@
+.social-icons {
+  position: absolute;
+  top: 50px;
+  left: 70%;
+
+  display: grid;
+
+  grid-template-columns: 130px 130px;
+  grid-template-rows: 130px 130px;
+  grid-column-gap: 30px;
+}
+
+.social-icons__site {
+  position: relative;
+}
+
+.social-icons__facebook-image {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+
+  width: 107px;
+}
+
+.social-icons__instagram-image {
+  position: absolute;
+  right: 38px;
+  bottom: 50px;
+
+  width: 115px;
+  height: 81px;
+}
+
+.social-icons__instagram-letter {
+  position: absolute;
+}
+
+.social-icons__tik-tok-image {
+  position: absolute;
+  right: 65px;
+  bottom: 30px;
+
+  width: 120px;
+  height: 112px;
+
+  transform: rotate(-17deg);
+}
+
+.social-icons__facebook-letter {
+  position: absolute;
+  z-index: 2;
+  top: 55px;
+  left: 20px;
+
+  width: 38px;
+}
+
+.social-icons__twitter-image {
+  position: absolute;
+  right: 10px;
+  bottom: 14px;
+
+  width: 105px;
+}
+
+.social-icons__twitter-letter {
+  position: absolute;
+  z-index: 2;
+  top: 40px;
+  left: 45px;
+
+  width: 46px;
+}
+
+.social-icons__tik-tok-letter {
+  position: absolute;
+  z-index: 2;
+  top: 17px;
+  right: 100px;
+
+  width: 44px;
+
+  transform: rotate(14deg);
+}
+
+@media screen and (max-width: 1662px) {
+  .social-icons {
+    left: 73.5%;
+  }
+}
+
+@media screen and (max-width: 1442px) {
+  .social-icons {
+    left: 76.5%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .social-icons__facebook-image {
+    width: 88px;
+  }
+
+  .social-icons__facebook-letter {
+    top: 47px;
+    left: 5px;
+
+    width: 31px;
+  }
+
+  .social-icons__tik-tok-image {
+    bottom: 15px;
+
+    width: 96px;
+  }
+
+  .social-icons__tik-tok-letter {
+    top: 20px;
+    left: -27px;
+
+    width: 37px;
+  }
+
+  .social-icons__twitter-image {
+    top: 20px;
+    right: 20px;
+
+    width: 82px;
+  }
+
+  .social-icons__twitter-letter {
+    top: 35px;
+    left: 23px;
+
+    width: 36px;
+  }
+
+  .social-icons__instagram-image {
+    width: 92px;
+  }
+
+  .social-icons__instagram-letter {
+    width: 33px;
+  }
+
+  .social-icons {
+    grid-template-columns: 102px 102px;
+    grid-template-rows: 110px 110px;
+    grid-column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .social-icons {
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px;
+    grid-column-gap: 15px;
+  }
+
+  .social-icons__facebook-image {
+    top: -1px;
+    right: -23px;
+
+    width: 40px;
+  }
+
+  .social-icons__facebook-letter {
+    top: 11px;
+    left: 47px;
+
+    width: 15px;
+  }
+
+  .social-icons__tik-tok-image {
+    right: -15px;
+    bottom: -10px;
+
+    width: 48px;
+  }
+
+  .social-icons__tik-tok-letter {
+    top: -7px;
+    left: 33px;
+
+    width: 19px;
+  }
+
+  .social-icons__twitter-image {
+    top: -2px;
+    right: -35px;
+
+    width: 41px;
+  }
+
+  .social-icons__twitter-letter {
+    top: 5px;
+    left: 55px;
+
+    width: 17px;
+  }
+
+  .social-icons__instagram-image {
+    right: -25px;
+    bottom: 10px;
+
+    width: 46px;
+  }
+
+  .social-icons__instagram-letter {
+    right: -50px;
+
+    width: 15px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .social-icons {
+    display: none;
+  }
+}

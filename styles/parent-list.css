@@ -1,0 +1,103 @@
+.parent-list {
+  display: flex;
+
+  margin-bottom: 15px;
+}
+
+.parent-list__shop {
+  margin-right: 221px;
+}
+
+.parent-list__title {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+
+  margin-bottom: 10px;
+}
+
+.parent-list__item-buble {
+  font-family: 'Bubble Rainbow';
+  font-size: 36px;
+  font-weight: 400;
+  font-style: normal;
+
+  margin-bottom: -5px;
+}
+
+.parent-list__item-about {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.parent-list__item-support {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.parent-list__about {
+  width: 134px;
+  margin-right: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+  .parent-list__shop {
+    margin-right: 20.6%;
+  }
+
+  .parent-list__item-buble {
+    width: 209px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .parent-list__item {
+    width: 145px;
+  }
+
+  .parent-list__title {
+    margin-bottom: 10px;
+  }
+
+  .parent-list__about {
+    margin-right: 0;
+  }
+
+  .parent-list__item-about {
+    width: 101px;
+    margin-bottom: 6px;
+  }
+
+  .parent-list__item-support {
+    margin-bottom: 6px;
+  }
+
+  .parent-list__shop {
+    margin-right: 44px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .parent-list__shop {
+    margin-right: 33px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .parent-list {
+    flex-direction: column;
+  }
+  .parent-list__shop {
+    margin-bottom: 30px;
+  }
+
+  .parent-list__about {
+    margin: 0 30px 36px 0;
+  }
+}
