@@ -33,6 +33,9 @@
 
 .social-icons__instagram-letter {
   position: absolute;
+  width: 42px;
+  top: 17px;
+  left: 5px;
 }
 
 .social-icons__tik-tok-image {
@@ -140,6 +143,8 @@
 
   .social-icons__instagram-letter {
     width: 33px;
+    top: 0px;
+    left: -5px;
   }
 
   .social-icons {
@@ -206,7 +211,8 @@
   }
 
   .social-icons__instagram-letter {
-    right: -50px;
+    left: 41px;
+    top: -10px;
 
     width: 15px;
   }

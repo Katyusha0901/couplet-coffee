@@ -33,6 +33,10 @@
 
 .social-icons-mobile__instagram-letter {
   position: absolute;
+  top: -18px;
+  left: 27px;
+
+  width: 29px;
 }
 
 .social-icons-mobile__tik-tok-image {
