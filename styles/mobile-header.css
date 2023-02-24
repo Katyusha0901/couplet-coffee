@@ -1,7 +1,10 @@
 .mobile-header {
+  position: sticky;
+  top: 0;
+
   display: none;
 
-  width: 100vw;
+  width: 100%;
   height: 75.99px;
   padding: 0 35px 2px 35px;
 
@@ -50,7 +53,6 @@
 
 @media (max-width: 768px) {
   .mobile-header {
-    position: fixed;
     z-index: 3;
 
     display: flex;

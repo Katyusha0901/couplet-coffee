@@ -1,0 +1,425 @@
+.like-and {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.like-and__content {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  max-width: 1440px;
+  padding: 114px 30px 108px;
+}
+
+.like-and__title {
+  font-family: 'Open Sans';
+  font-size: 62px;
+  font-weight: 500;
+  font-style: normal;
+
+  margin: 0 110px 80px;
+}
+
+
+
+.like-and__sites-mobile {
+  display: none;
+}
+.like-and__icons {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+
+  display: flex;
+}
+
+.like-and__icons-tik-tok {
+  position: relative;
+
+  display: flex;
+
+  align-self: center;
+}
+
+.like-and__tik-tok-image {
+  top: 25px;
+
+  width: 115px;
+}
+
+.like-and__tik-tok-letter {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+
+  width: 43px;
+
+  transform: rotate(30deg);
+}
+
+.like-and__icons-facebook {
+  position: relative;
+
+  display: flex;
+
+  align-self: center;
+}
+
+.like-and__facebook-image {
+  width: 110px;
+}
+
+.like-and__facebook-letter {
+  position: absolute;
+  top: 35px;
+  left: 40px;
+
+  width: 38px;
+}
+
+.like-and__icons-instagram {
+  position: relative;
+
+  display: flex;
+
+  align-self: flex-end;
+}
+
+.like-and__instagram-image {
+  width: 125px;
+}
+
+.like-and__instagram-letter {
+  position: absolute;
+  top: 22px;
+  left: 33px;
+
+  width: 42px;
+}
+
+.like-and__icons-twitter {
+  position: relative;
+
+  display: flex;
+
+  align-self: center;
+}
+
+.like-and__twitter-image {
+  width: 104px;
+}
+
+.like-and__twitter-letter {
+  position: absolute;
+  top: 17px;
+  left: 33px;
+
+  width: 46px;
+}
+
+.like-and__icons-mobile {
+  position: absolute;
+  top: 60px;
+  right: 110px;
+
+  display: none;
+}
+
+.like-and__icons-site-mobile {
+  position: relative;
+}
+
+.like-and__tik-tok-image-mobile {
+  top: 25px;
+
+  width: 80px;
+}
+
+.like-and__tik-tok-letter-mobile {
+  position: absolute;
+  top: 23px;
+  left: 27px;
+
+  width: 30px;
+
+  transform: rotate(30deg);
+}
+
+.like-and__facebook-image-mobile {
+  width: 77px;
+}
+
+.like-and__facebook-letter-mobile {
+  position: absolute;
+  top: 25px;
+  left: 27px;
+
+  width: 26px;
+}
+
+.like-and__icons-instagram-mobile {
+  position: relative;
+
+  display: flex;
+
+  align-self: flex-end;
+}
+
+.like-and__instagram-image-mobile {
+  width: 87px;
+}
+
+.like-and__instagram-letter-mobile {
+  position: absolute;
+  top: 14px;
+  left: 22px;
+
+  width: 29px;
+}
+
+.like-and__twitter-image-mobile {
+  width: 72px;
+}
+
+.like-and__twitter-letter-mobile {
+  position: absolute;
+  top: 12px;
+  left: 20px;
+
+  width: 32px;
+}
+
+@media screen and (max-width: 980px) {
+  .like-and__icons {
+    display: none;
+  }
+
+  .like-and__icons-mobile {
+    display: flex;
+  }
+
+  .like-and__title {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .like-and__sites-desktop {
+    display: none;
+  }
+  .like-and__sites-mobile {
+    display: flex;
+  }
+  .like-and__icons {
+    position: static;
+    top: 60px;
+    right: 0;
+
+    display: flex;
+
+    height: 116px;
+    margin-top: 40px;
+
+    justify-content: center;
+  }
+
+  .like-and__content {
+    padding: 40px 20px 70px;
+  }
+
+  .like-and__title {
+    font-size: 36px;
+
+    margin-bottom: 30px;
+  }
+
+  .like-and__icons-tik-tok {
+    position: relative;
+
+    display: flex;
+
+    align-self: flex-start;
+  }
+
+  .like-and__tik-tok-image {
+    top: 5px;
+
+    width: 115px;
+  }
+
+  .like-and__tik-tok-letter {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+
+    width: 43px;
+
+    transform: rotate(30deg);
+  }
+
+  .like-and__icons-facebook {
+    position: relative;
+
+    display: flex;
+
+    align-self: flex-end;
+  }
+
+  .like-and__facebook-image {
+    width: 110px;
+  }
+
+  .like-and__facebook-letter {
+    position: absolute;
+    top: 35px;
+    left: 40px;
+
+    width: 38px;
+  }
+
+  .like-and__icons-instagram {
+    position: relative;
+
+    display: flex;
+
+    align-self: flex-start;
+  }
+
+  .like-and__instagram-image {
+    width: 125px;
+  }
+
+  .like-and__instagram-letter {
+    position: absolute;
+    top: 22px;
+    left: 33px;
+
+    width: 42px;
+  }
+
+  .like-and__icons-twitter {
+    position: relative;
+
+    display: flex;
+
+    align-self: flex-end;
+  }
+
+  .like-and__twitter-image {
+    width: 104px;
+  }
+
+  .like-and__twitter-letter {
+    position: absolute;
+    top: 17px;
+    left: 33px;
+
+    width: 46px;
+  }
+
+
+  .like-and__icons-mobile {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .like-and__icons {
+    display: none;
+  }
+
+  .like-and__sites-mobile {
+    display: flex;
+
+    width: 100%;
+    margin-top: 30px;
+
+    justify-content: center;
+    align-self: center;
+  }
+
+  .like-and__icons-mobile {
+    position: static;
+    top: 120px;
+    right: 0;
+    left: 20%;
+
+    display: flex;
+
+    text-align: center;
+
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .like-and__icons-site-mobile {
+    position: relative;
+  }
+
+  .like-and__tik-tok-image-mobile {
+    top: 25px;
+
+    width: 69px;
+  }
+
+  .like-and__tik-tok-letter-mobile {
+    position: absolute;
+    top: 18px;
+    left: 20px;
+
+    width: 28px;
+
+    transform: rotate(30deg);
+  }
+
+  .like-and__facebook-image-mobile {
+    width: 66px;
+  }
+
+  .like-and__facebook-letter-mobile {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+
+    width: 22px;
+  }
+
+  .like-and__icons-instagram-mobile {
+    position: relative;
+
+    display: flex;
+
+    align-self: flex-end;
+  }
+
+  .like-and__instagram-image-mobile {
+    width: 69px;
+  }
+
+  .like-and__instagram-letter-mobile {
+    position: absolute;
+    top: 14px;
+    left: 22px;
+
+    width: 25px;
+  }
+
+  .like-and__twitter-image-mobile {
+    width: 61px;
+  }
+
+  .like-and__twitter-letter-mobile {
+    position: absolute;
+    top: 12px;
+    left: 20px;
+
+    width: 27px;
+  }
+}

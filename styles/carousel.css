@@ -1,0 +1,55 @@
+.carousel {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+
+.carousel__button-prev,
+.carousel__button-next {
+  display: flex;
+
+  width: 70px;
+  height: 70px;
+
+  cursor: pointer;
+
+  border-radius: 50%;
+  background: #ffcb1f;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel__button-prev::after,
+.carousel__button-next::after {
+  display: none;
+}
+
+.carousel__button-prev-image {
+  height: 28px;
+}
+
+.carousel__button-next-image {
+  height: 28px;
+
+  transform: scale(-1, -1);
+}
+
+@media screen and (max-width: 1129px) {
+  .swiper1 {
+    display: none;
+  }
+
+  .swiper2 {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .carousel__button-prev,
+  .carousel__button-next {
+    display: none;
+  }
+}

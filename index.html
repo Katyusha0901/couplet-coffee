@@ -30,9 +30,47 @@
     <link href="styles/wave-mobile.css" rel="stylesheet" />
     <link href="styles/couplet.css" rel="stylesheet" />
     <link href="styles/great-coffee.css" rel="stylesheet" />
+    <link href="styles/like-and.css" rel="stylesheet" />
+    <link href="styles/carousel.css" rel="stylesheet" />
+    <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link href="styles/swiper.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="running-line"></div>
+    <div class="running-line">
+      <div class="running-line__slide">
+        <img class="running-line__image" src="/images/running-smile.webp">
+        <div class="running-line__text">SUBSCRIBE AND SAVE</div>
+        <img class="running-line__image" src="/images/running-blue-flower.png">
+        <div class="running-line__text">FREE SHIPPING OVER $50</div>
+        <img class="running-line__image" src="/images/running-green-flower.webp">
+      </div>
+      <div class="running-line__slide">
+        <img class="running-line__image" src="/images/running-smile.webp">
+        <div class="running-line__text">SUBSCRIBE AND SAVE</div>
+        <img class="running-line__image" src="/images/running-blue-flower.png">
+        <div class="running-line__text">FREE SHIPPING OVER $50</div>
+        <img class="running-line__image" src="/images/running-green-flower.webp">
+      </div>
+      <div class="running-line__slide">
+        <img class="running-line__image" src="/images/running-smile.webp">
+        <div class="running-line__text">SUBSCRIBE AND SAVE</div>
+        <img class="running-line__image" src="/images/running-blue-flower.png">
+        <div class="running-line__text">FREE SHIPPING OVER $50</div>
+        <img class="running-line__image" src="/images/running-green-flower.webp">
+      </div>
+      <div class="running-line__slide">
+        <img class="running-line__image" src="/images/running-smile.webp">
+        <div class="running-line__text">SUBSCRIBE AND SAVE</div>
+        <img class="running-line__image" src="/images/running-blue-flower.png">
+        <div class="running-line__text">FREE SHIPPING OVER $50</div>
+        <img class="running-line__image" src="/images/running-green-flower.webp">
+      </div>
+    </div>
 
     <!-- ================================================================================================ -->
 
@@ -50,50 +88,51 @@
     <!-- ================================================================================================= -->
 
 
-    <div class="shop-now__header">
-      <div class="shop-now__logo">
-        <img class="shop-now__logo-logo" src="images/shop-now-logo.png" />
-      </div>
-      <div class="shop-now__menu">
-        <div class="shop-now__menu-item">
-          SHOP
-          <div class="shop-now__submenu">
-            <div class="shop-now__submenu-item">COFFEE</div>
-            <div class="shop-now__submenu-item">MERCH</div>
-            <div class="shop-now__submenu-item">EQUIPMENT</div>
-            <div class="shop-now__submenu-item">LIMITED DROPS</div>
-            <div class="shop-now__submenu-item">BUNDELS</div>
-          </div>
-        </div>
-        <div class="shop-now__menu-item shop-now__menu-item_blue">ABOUT US</div>
-        <div class="shop-now__menu-item shop-now__menu-item_purple">
-          COMMUNITY
-        </div>
-        <img src="images/cup.svg" class="shop-now__menu-image" />
-        <div class="shop-now__menu-item">CONTACT</div>
-        <div class="shop-now__menu-item">LOCATIONS</div>
-      </div>
-      <div class="shop-now__novigation">
-        <div class="shop-now__novigation-content">
-          <img
-            class="shop-now__novigation-image"
-            src="images/sop-now-search.webp"
-          />
-          <img
-            class="shop-now__novigation-image"
-            src="images/shop-now-profile.webp"
-          />
-          <div class="shop-now__novigation-cart">
-            <img
-              class="shop-now__novigation-cartimage"
-              src="images/mobile-cart.png"
-            />
-            <div class="shop-now__novigation-figure">0</div>
-          </div>
-        </div>
-      </div>
-    </div>
+    
     <div class="shop-now">
+      <div class="shop-now__header">
+        <div class="shop-now__logo">
+          <img class="shop-now__logo-logo" src="images/shop-now-logo.png" />
+        </div>
+        <div class="shop-now__menu">
+          <div class="shop-now__menu-item">
+            SHOP
+            <div class="shop-now__submenu">
+              <div class="shop-now__submenu-item">COFFEE</div>
+              <div class="shop-now__submenu-item">MERCH</div>
+              <div class="shop-now__submenu-item">EQUIPMENT</div>
+              <div class="shop-now__submenu-item">LIMITED DROPS</div>
+              <div class="shop-now__submenu-item">BUNDELS</div>
+            </div>
+          </div>
+          <div class="shop-now__menu-item shop-now__menu-item_blue">ABOUT US</div>
+          <div class="shop-now__menu-item shop-now__menu-item_purple">
+            COMMUNITY
+          </div>
+          <img src="images/cup.svg" class="shop-now__menu-image" />
+          <div class="shop-now__menu-item">CONTACT</div>
+          <div class="shop-now__menu-item">LOCATIONS</div>
+        </div>
+        <div class="shop-now__novigation">
+          <div class="shop-now__novigation-content">
+            <img
+              class="shop-now__novigation-image"
+              src="images/sop-now-search.webp"
+            />
+            <img
+              class="shop-now__novigation-image"
+              src="images/shop-now-profile.webp"
+            />
+            <div class="shop-now__novigation-cart">
+              <img
+                class="shop-now__novigation-cartimage"
+                src="images/mobile-cart.png"
+              />
+              <div class="shop-now__novigation-figure">0</div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="shop-now__button">
         <div class="shop-now__button-text">SHOP NOW</div>
         <div class="shop-now__button-image">
@@ -484,7 +523,7 @@
                 <div class="small-item__text">
                   <div class="small-item__title">The Lover's French press</div>
                   <div class="small-item__subtitle">
-                    IIntroducing the cutest french press known to man.
+                    Introducing the cutest french press known to man.
                   </div>
                 </div>
               </div>
@@ -544,7 +583,7 @@
               </div>
               <img class="big-item__strokes" src="images/strokes.webp" />
               <img class="big-item__image" src="images/bag2.webp" />
-              <div class="big-item__descriotion">
+              <div class="big-item__description">
                 <div class="big-item__text">
                   <div class="big-item__title">The Fall Edition Tote Bag</div>
                   <div class="big-item__subtitle">
@@ -575,6 +614,7 @@
    <!-- ================================================================================================= -->
 
     <div class="couplet">
+     <img class="couplet__image" src="/images/couplet-orange.webp">
      <div class="couplet__text">
        <div class="couplet__text-title">Hi, we're Couplet</div>
        <div class="couplet__text-subtitle">We're making specialty coffee you can can drink and enjoy without pretentious notes and bluff. Think fun and approachable, not douchey. Inclusivity is at the core of what we do, which is why we make coffee for the girls, theys, gays and everyone.</div>
@@ -587,6 +627,137 @@
       <div class="great-coffee__text">
         <div class="great-coffee__text-degular">great coffee</div>
         <div class="great-coffee__text-bubble">shouldn't be douchey</div>
+      </div>
+    </div>
+
+    <!-- ========================================================================================================= -->
+
+    <div class="like-and">
+      <div class="like-and__content">
+        <div class="like-and__title">like and subscribe!!!</div>
+        <div class="like-and__sites-desktop">
+          <div class="like-and__icons">
+            <div class="like-and__icons-tik-tok">
+              <img class="like-and__tik-tok-image" src="/images/like-tik-tok.svg">
+              <img class="like-and__tik-tok-letter" src="/images/tik-tok-letter.svg">
+            </div>
+            <div class="like-and__icons-facebook">
+              <img class="like-and__facebook-image" src="/images/like-facebook.svg">
+              <img class="like-and__facebook-letter" src="/images/facebook-letter.svg">
+            </div>
+            <div class="like-and__icons-instagram">
+              <img class="like-and__instagram-image" src="/images/like-instagram.svg">
+              <img class="like-and__instagram-letter" src="/images/instagram-letter.svg">
+            </div>
+            <div class="like-and__icons-twitter">
+              <img class="like-and__twitter-image" src="/images/like-twitter.svg">
+              <img class="like-and__twitter-letter" src="/images/twitter-letter.svg">
+            </div>
+          </div>
+  
+          <div class="like-and__icons-mobile">
+            <div class="like-and__icons-site-mobile">
+              <img class="like-and__tik-tok-image-mobile" src="/images/like-tik-tok.svg">
+              <img class="like-and__tik-tok-letter-mobile" src="/images/tik-tok-letter.svg">
+            </div>
+            <div class="like-and__icons-site-mobile">
+              <img class="like-and__facebook-image-mobile" src="/images/like-facebook.svg">
+              <img class="like-and__facebook-letter-mobile" src="/images/facebook-letter.svg">
+            </div>
+            <div class="like-and__icons-instagram-mobile">
+              <img class="like-and__instagram-image-mobile" src="/images/like-instagram.svg">
+              <img class="like-and__instagram-letter-mobile" src="/images/instagram-letter.svg">
+            </div>
+            <div class="like-and__icons-site-mobile">
+              <img class="like-and__twitter-image-mobile" src="/images/like-twitter.svg">
+              <img class="like-and__twitter-letter-mobile" src="/images/twitter-letter.svg">
+            </div>
+          </div>
+        </div>
+       
+
+        <div class="carousel">
+          <div class="carousel__button-prev">
+            <img class="carousel__button-prev-image" src="/images/slider-arrow-left.webp">
+          </div>
+          <div class="swiper swiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/images/carousel-new-location.webp" class="swiper__image">
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/carousel-second.webp" class="swiper__image">
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/carousel-third.webp" class="swiper__image">
+              </div>
+            </div>
+          </div>
+         
+          <div class="swiper swiper2">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="/images/carousel-new-location.webp" class="swiper__image">
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/carousel-second.webp" class="swiper__image">
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/carousel-third.webp" class="swiper__image">
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/carousel-third.webp" class="swiper__image">
+              </div>
+              <div class="swiper-slide">
+                <img src="/images/carousel-third.webp" class="swiper__image">
+              </div>
+              
+            </div>
+          </div>
+          <div class="carousel__button-next">
+            <img class="carousel__button-next-image" src="/images/slider-arrow-left.webp">
+          </div>
+        </div>
+
+        <div class="like-and__sites-mobile">
+          <div class="like-and__icons">
+            <div class="like-and__icons-tik-tok">
+              <img class="like-and__tik-tok-image" src="/images/like-tik-tok.svg">
+              <img class="like-and__tik-tok-letter" src="/images/tik-tok-letter.svg">
+            </div>
+            <div class="like-and__icons-facebook">
+              <img class="like-and__facebook-image" src="/images/like-facebook.svg">
+              <img class="like-and__facebook-letter" src="/images/facebook-letter.svg">
+            </div>
+            <div class="like-and__icons-instagram">
+              <img class="like-and__instagram-image" src="/images/like-instagram.svg">
+              <img class="like-and__instagram-letter" src="/images/instagram-letter.svg">
+            </div>
+            <div class="like-and__icons-twitter">
+              <img class="like-and__twitter-image" src="/images/like-twitter.svg">
+              <img class="like-and__twitter-letter" src="/images/twitter-letter.svg">
+            </div>
+          </div>
+  
+          <div class="like-and__icons-mobile">
+            <div class="like-and__icons-site-mobile">
+              <img class="like-and__tik-tok-image-mobile" src="/images/like-tik-tok.svg">
+              <img class="like-and__tik-tok-letter-mobile" src="/images/tik-tok-letter.svg">
+            </div>
+            <div class="like-and__icons-site-mobile">
+              <img class="like-and__facebook-image-mobile" src="/images/like-facebook.svg">
+              <img class="like-and__facebook-letter-mobile" src="/images/facebook-letter.svg">
+            </div>
+            <div class="like-and__icons-instagram-mobile">
+              <img class="like-and__instagram-image-mobile" src="/images/like-instagram.svg">
+              <img class="like-and__instagram-letter-mobile" src="/images/instagram-letter.svg">
+            </div>
+            <div class="like-and__icons-site-mobile">
+              <img class="like-and__twitter-image-mobile" src="/images/like-twitter.svg">
+              <img class="like-and__twitter-letter-mobile" src="/images/twitter-letter.svg">
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -726,8 +897,33 @@
         <img class="wave" src="/images/footer-wave.png"></div>
       </div>
     </div>
+    
+    <script>
+       new Swiper('.swiper', {
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 3,
+        slidesPerGroup: 1,
+    
+        navigation: {
+        nextEl: '.carousel__button-next',
+        prevEl: '.carousel__button-prev',
+      },
+      });
+
+      new Swiper('.swiper2', {
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 2,
+        slidesPerGroup: 1,
 
     
-
+        navigation: {
+        nextEl: '.carousel__button-next',
+        prevEl: '.carousel__button-prev',
+      },
+      });
+    
+    </script>
   </body>
 </html>
