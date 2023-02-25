@@ -28,8 +28,9 @@
 .running-line__slide {
   display: flex;
 
-  width: 804px;
+  width: 806px;
   padding-right: 70px;
+  gap: 25px;
 
   align-items: flex-end;
   justify-content: space-around;
